@@ -2,25 +2,25 @@ Il modello Pub/Sub è un paradigma di comunicazione che separa i produttori 
 
 #### **Componenti Principali del Modello Pub/Sub**
 
-1. **Produttori (Producers)**
+1. **Produttori ([[PRODUCER]])**
     
     - **Funzione**: Invia messaggi a un topic specifico.
     - **Caratteristiche**:
         - Possono pubblicare messaggi in tempo reale.
-        - Possono scegliere a quale partizione inviare il messaggio all'interno del topic.
+        - Possono scegliere a quale [[Partizione]] inviare il messaggio all'interno del topic.
         - Possono essere configurati per garantire la consegna dei messaggi (es. attraverso conferme di ricezione).
-2. **Topic**
+2. **[[Topic]]**
     
     - **Funzione**: Una categoria o un canale attraverso cui i messaggi vengono trasmessi.
     - **Caratteristiche**:
         - I topic possono essere partizionati, consentendo una distribuzione dei messaggi su più broker.
-        - Ogni topic ha un nome univoco e i messaggi sono ordinati per partizione.
-3. **Consumatori (Consumers)**
+        - Ogni topic ha un nome univoco e i messaggi sono ordinati per [[Partizione]].
+3. **Consumatori ([[CONSUMER]])**
     
     - **Funzione**: Leggono i messaggi pubblicati su un topic.
     - **Caratteristiche**:
         - Possono essere organizzati in gruppi di consumatori per elaborare i messaggi in parallelo.
-        - Ogni messaggio in una partizione è consumato da un solo membro del gruppo.
+        - Ogni messaggio in una [[Partizione]] è consumato da un solo membro del gruppo.
 4. **Gruppi di Consumatori (Consumer Groups)**
     
     - **Funzione**: Permettono a più consumatori di collaborare per elaborare i messaggi di un topic.

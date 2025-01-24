@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"e38e8bd7daec1b96","type":"text","text":"#     KAFKA","x":-173,"y":-580,"width":353,"height":80},
+		{"id":"e38e8bd7daec1b96","type":"text","text":"#     KAFKA","x":-173,"y":-580,"width":353,"height":80,"color":"4"},
 		{"id":"2e41244fc19bb03b","type":"text","text":"[[BROKER]]","x":1190,"y":-100,"width":183,"height":50,"color":"2"},
-		{"id":"fc001a5de985a1de","type":"text","text":"Server che ricevono e memorizzano i dati nei [[TOPIC]]","x":1190,"y":-3,"width":183,"height":143},
+		{"id":"fc001a5de985a1de","type":"text","text":"Server che ricevono e memorizzano i dati (messaggi) nei [[TOPIC]]","x":1190,"y":-3,"width":183,"height":143},
 		{"id":"309a6dd27a2e83fe","type":"text","text":"[[PRODUCER]]","x":426,"y":-79,"width":183,"height":58,"color":"2"},
 		{"id":"1e3b2f587ae0acc6","type":"text","text":"[[CONSUMER]]","x":825,"y":-83,"width":183,"height":58,"color":"2"},
-		{"id":"8ad8c38bf1617055","type":"text","text":"Inviano dati ai [[TOPIC]] di Kafka","x":426,"y":14,"width":183,"height":58},
-		{"id":"4e5c4a32f20629ab","type":"text","text":"Leggono i dati dai [[TOPIC]]\n","x":825,"y":14,"width":183,"height":58},
-		{"id":"f2e8132017ab463b","type":"text","text":"Piattaforma di Streaming di eventi ([[Streaming DISTRIBUITO]]) progettata per gestire ==flussi di dati in TEMPO REALE==","x":-48,"y":-300,"width":366,"height":120,"color":"1"},
+		{"id":"8ad8c38bf1617055","type":"text","text":"Inviano dati (messaggi) ai [[TOPIC]] di Kafka","x":426,"y":14,"width":183,"height":58},
+		{"id":"4e5c4a32f20629ab","type":"text","text":"Leggono i dati (messaggi) dai [[TOPIC]]\n","x":825,"y":14,"width":183,"height":58},
+		{"id":"f2e8132017ab463b","type":"text","text":"###### Piattaforma di Streaming di eventi ([[Streaming DISTRIBUITO]]) progettata per gestire ==flussi di dati in TEMPO REALE==","x":-48,"y":-300,"width":368,"height":210,"color":"1"},
 		{"id":"d53ddaeae95d1175","type":"text","text":"VANTAGGI","x":-480,"y":-270,"width":250,"height":60},
 		{"id":"7261d236bf9216ec","type":"text","text":"ARCHITETTURA","x":-1040,"y":-270,"width":250,"height":60},
 		{"id":"fceb72f45ea8184f","type":"text","text":"COMPONENTI CHIAVE","x":792,"y":-271,"width":250,"height":61},

@@ -10,10 +10,10 @@
 2. **Gruppi di Consumatori**:
     
     - I consumatori possono essere organizzati in gruppi di consumatori, il che consente a più istanze di lavorare insieme per elaborare i messaggi.
-    - Ogni messaggio in una partizione è consumato da un solo membro del gruppo, garantendo che non ci siano duplicati.
+    - Ogni messaggio in una [[Partizione]] è consumato da un solo membro del gruppo, garantendo che non ci siano duplicati.
 3. **Offset**:
     
-    - Ogni messaggio ha un offset, che è un identificatore unico che indica la posizione del messaggio all'interno di una partizione.
+    - Ogni messaggio ha un offset, che è un identificatore unico che indica la posizione del messaggio all'interno di una [[Partizione]].
     - I consumatori possono gestire gli offset per tenere traccia dei messaggi già letti e riprendere la lettura da dove si erano fermati.
 
 ### **Vantaggi dell'Utilizzo di un Consumer in Kafka**
