@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"916587d77921c32e","type":"text","text":"Ambiente di sviluppo **virtuale**","x":440,"y":-560,"width":250,"height":60},
+		{"id":"be6611f967d6d5fe","type":"text","text":"Test Automatizzati","x":110,"y":-560,"width":250,"height":60},
+		{"id":"786d0f1325055035","type":"text","text":"  CLI","x":-40,"y":-560,"width":100,"height":60},
+		{"id":"132b5670be8ca663","type":"text","text":"MODULI","x":-320,"y":-560,"width":250,"height":60},
+		{"id":"84aa38080e475a64","type":"text","text":"[[ORM]]","x":-450,"y":-560,"width":100,"height":60},
+		{"id":"f2dc9ac557cb248f","type":"text","text":"[[ELOQUENT]]","x":-478,"y":-420,"width":157,"height":60},
+		{"id":"1d4def2cfdf371e7","type":"text","text":"Sistema di [[AUTENTICAZIONE]] integrato","x":-800,"y":-560,"width":300,"height":60},
+		{"id":"671f661228db6d63","type":"text","text":"# LARAVEL","x":-165,"y":-1200,"width":250,"height":60,"color":"1"},
+		{"id":"dba38112ddc467b7","type":"text","text":"### ==Caratteristiche PRINCIPALI== ","x":-250,"y":-980,"width":420,"height":60},
+		{"id":"95bc31ec1a60c0ee","type":"file","file":"LARAVEL/Definizione.md","x":-828,"y":-1090,"width":350,"height":110},
+		{"id":"f56cb19485b1ab90","type":"text","text":"#### [[BLADE.canvas|BLADE]]","x":300,"y":-1095,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"ac6a4f165506736f","fromNode":"671f661228db6d63","fromSide":"left","toNode":"95bc31ec1a60c0ee","toSide":"right"},
+		{"id":"be35a54e7cb7164c","fromNode":"671f661228db6d63","fromSide":"bottom","toNode":"dba38112ddc467b7","toSide":"top"},
+		{"id":"dfa004823adaa6cf","fromNode":"dba38112ddc467b7","fromSide":"bottom","toNode":"1d4def2cfdf371e7","toSide":"top"},
+		{"id":"910aa9f598f00794","fromNode":"dba38112ddc467b7","fromSide":"bottom","toNode":"84aa38080e475a64","toSide":"top"},
+		{"id":"c0433b1ec08016d4","fromNode":"dba38112ddc467b7","fromSide":"bottom","toNode":"132b5670be8ca663","toSide":"top"},
+		{"id":"a97c8538f5663886","fromNode":"dba38112ddc467b7","fromSide":"bottom","toNode":"786d0f1325055035","toSide":"top"},
+		{"id":"7495347addbdee2d","fromNode":"dba38112ddc467b7","fromSide":"bottom","toNode":"be6611f967d6d5fe","toSide":"top"},
+		{"id":"3e0db0c5c8999c51","fromNode":"dba38112ddc467b7","fromSide":"bottom","toNode":"916587d77921c32e","toSide":"top"},
+		{"id":"35e0c861339f005c","fromNode":"84aa38080e475a64","fromSide":"bottom","toNode":"f2dc9ac557cb248f","toSide":"top"},
+		{"id":"554bc1ebc60cfaae","fromNode":"671f661228db6d63","fromSide":"right","toNode":"f56cb19485b1ab90","toSide":"left"}
+	]
+}

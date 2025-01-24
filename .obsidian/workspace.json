@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "29424b35415198e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "30069461a49ee167",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a1b0b91da420b08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APACHE KAFKA/Architettura Pub-Sub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Architettura Pub-Sub"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "defc949165600e43",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9c4e9ea8417bb5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c25a719a06b5fe4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "dab3d62812b0c9a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "20a7b1ecbed6169c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5b940540e58b9d0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bffcb301d26a25c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9f9a88a407af3ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "APACHE KAFKA/Architettura Pub-Sub.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a Architettura Pub-Sub"
+            }
+          },
+          {
+            "id": "048d6083eea57f5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "87f47eb79f0c54f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "c09e055b794993ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "APACHE KAFKA/Architettura Pub-Sub.md"
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di Architettura Pub-Sub"
+            }
+          },
+          {
+            "id": "688f3d58451fcb30",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "remotely-secure:Remotely Sync": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "688f3d58451fcb30",
+  "lastOpenFiles": [
+    "APACHE KAFKA/KAFKA.canvas",
+    "APACHE KAFKA/TOPIC.md",
+    "APACHE KAFKA/BROKER.md",
+    "APACHE KAFKA/Streaming DISTRIBUITO.md",
+    "APACHE KAFKA/Architettura Pub-Sub.md",
+    "Senza nome.md",
+    "Senza nome.canvas",
+    "Pasted image 20240530155134.png",
+    "LARAVEL/LARAVEL.canvas",
+    "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
+    "LARAVEL/ELOQUENT/ELOQUENT.md",
+    "ORM.md",
+    "LARAVEL/AUTENTICAZIONE.md",
+    "LARAVEL/BLADE.canvas",
+    "MVC.md",
+    "APACHE KAFKA/CONSUMER.md",
+    "APACHE KAFKA/PRODUCER.md",
+    "APACHE KAFKA/Architettura Pub",
+    "().md",
+    "LARAVEL/Definizione.md",
+    "APACHE KAFKA/Senza nome 1.canvas",
+    "APACHE KAFKA",
+    "LARAVEL/ELOQUENT/Versionamento.md",
+    "LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md",
+    "BLADE.md",
+    "LARAVEL/ELOQUENT",
+    "LARAVEL",
+    "LARAVEL/ELOQUENT/Migrations.md",
+    "LARAVEL/ELOQUENT/ROLLBACK e ROLLUP.md",
+    "LARAVEL/ELOQUENT/Riproducibilità.md",
+    "2024-05-30.md",
+    "Au.md"
+  ]
+}

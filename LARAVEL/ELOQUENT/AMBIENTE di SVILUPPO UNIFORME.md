@@ -1,0 +1,1 @@
+Consente a tutto il team di sviluppo di utilizzare lo stesso schema

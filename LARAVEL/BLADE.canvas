@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"84ef0223e1f5c6ee","x":-760,"y":-820,"width":360,"height":110,"type":"text","text":"### Da Laravel 8.x i Blade diventano componenti a tutti gli effetti"},
+		{"id":"798586df90873590","type":"text","text":"# BLADE","x":-100,"y":-1120,"width":250,"height":60,"color":"1"},
+		{"id":"dae40c657b2b64a5","x":-255,"y":-980,"width":560,"height":60,"type":"text","text":"### Motore dedicato per la gestione dei template"},
+		{"id":"18b3c5a79cef9f99","x":-440,"y":-670,"width":560,"height":310,"type":"text","text":"### CHIAMATA\n\n```\n<x-nome-componente>\n\t[Contenuto SLOT]\n</x-nome-componente>\n```\n\nIn fase di chiamata diventano Tag html personalizzati. \nÉ **fondamentale** la \"x\" posta all'inizio del nome per consentire al framework di riconoscerli come elementi html."},
+		{"id":"a4ae4da5e2dabdaf","x":-1280,"y":-710,"width":320,"height":120,"type":"text","text":"Blocchi di codice riutilizzabili dedicati alla definizione di oggetti UI (es. Bottoni personalizzati)"},
+		{"id":"08954319bc46389c","x":-1405,"y":-515,"width":250,"height":60,"type":"text","text":"Separare LOGICA e PRESENTAZIONE"},
+		{"id":"a8c3cbbb124d2d19","x":-1020,"y":-540,"width":520,"height":240,"type":"text","text":"### DEFINIZIONE\n\n```\n <div class=\"font-sans text-gray-900 antialiased\">\n\t  {{ $slot }}\n  </div>\n```\n\nGli slot (SEGNAPOSTO) consentono di inserire il contenuto dinamicamente"}
+	],
+	"edges":[
+		{"id":"4d398b344b7d35be","fromNode":"798586df90873590","fromSide":"bottom","toNode":"dae40c657b2b64a5","toSide":"top"},
+		{"id":"ec253f0cb40d36ac","fromNode":"dae40c657b2b64a5","fromSide":"left","toNode":"84ef0223e1f5c6ee","toSide":"top"},
+		{"id":"06a4c6a0616b7289","fromNode":"84ef0223e1f5c6ee","fromSide":"left","toNode":"a4ae4da5e2dabdaf","toSide":"top"},
+		{"id":"1ae16afd239f2112","fromNode":"a4ae4da5e2dabdaf","fromSide":"bottom","toNode":"08954319bc46389c","toSide":"top"},
+		{"id":"81f8b52ac5aa0b7f","fromNode":"84ef0223e1f5c6ee","fromSide":"bottom","toNode":"a8c3cbbb124d2d19","toSide":"top"},
+		{"id":"9c3165bd26e9dc56","fromNode":"84ef0223e1f5c6ee","fromSide":"right","toNode":"18b3c5a79cef9f99","toSide":"top"}
+	]
+}

@@ -1,0 +1,1 @@
+Consente di tenere traccia delle modifiche apportate allo Schema

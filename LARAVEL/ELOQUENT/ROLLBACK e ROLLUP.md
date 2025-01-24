@@ -1,0 +1,1 @@
+Funzioni che consentono di annullare o riapplicare le modifiche effettuate

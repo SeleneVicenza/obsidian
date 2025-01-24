@@ -1,0 +1,11 @@
+{
+  "remotely-secure:start-sync": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ]
+}

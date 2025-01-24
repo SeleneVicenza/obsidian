@@ -1,0 +1,1 @@
+Gestione dello schema del DB dall'interno dell'applicazione => Definizione e Modifica della struttura attraverso il codice php

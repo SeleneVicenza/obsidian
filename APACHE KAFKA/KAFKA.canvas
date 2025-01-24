@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"e38e8bd7daec1b96","type":"text","text":"#     KAFKA","x":-173,"y":-580,"width":353,"height":80},
+		{"id":"2e41244fc19bb03b","type":"text","text":"[[BROKER]]","x":1190,"y":-100,"width":183,"height":50,"color":"2"},
+		{"id":"fc001a5de985a1de","type":"text","text":"Server che ricevono e memorizzano i dati nei [[TOPIC]]","x":1190,"y":-3,"width":183,"height":143},
+		{"id":"309a6dd27a2e83fe","type":"text","text":"[[PRODUCER]]","x":426,"y":-79,"width":183,"height":58,"color":"2"},
+		{"id":"1e3b2f587ae0acc6","type":"text","text":"[[CONSUMER]]","x":825,"y":-83,"width":183,"height":58,"color":"2"},
+		{"id":"8ad8c38bf1617055","type":"text","text":"Inviano dati ai [[TOPIC]] di Kafka","x":426,"y":14,"width":183,"height":58},
+		{"id":"4e5c4a32f20629ab","type":"text","text":"Leggono i dati dai [[TOPIC]]\n","x":825,"y":14,"width":183,"height":58},
+		{"id":"f2e8132017ab463b","type":"text","text":"Piattaforma di Streaming di eventi ([[Streaming DISTRIBUITO]]) progettata per gestire ==flussi di dati in TEMPO REALE==","x":-48,"y":-300,"width":366,"height":120,"color":"1"},
+		{"id":"d53ddaeae95d1175","type":"text","text":"VANTAGGI","x":-480,"y":-270,"width":250,"height":60},
+		{"id":"7261d236bf9216ec","type":"text","text":"ARCHITETTURA","x":-1040,"y":-270,"width":250,"height":60},
+		{"id":"fceb72f45ea8184f","type":"text","text":"COMPONENTI CHIAVE","x":792,"y":-271,"width":250,"height":61},
+		{"id":"e53dac91b35142eb","type":"text","text":"- **Scalabilità**: Kafka è altamente scalabile. Può gestire milioni di messaggi al secondo e può essere distribuito su più server per garantire una maggiore capacità.\n    \n- **Persistenza dei Dati**: I messaggi in Kafka sono memorizzati su disco in modo duraturo. Questo significa che i dati possono essere recuperati anche dopo un riavvio del sistema, rendendo Kafka ideale per applicazioni che richiedono affidabilità.\n    \n- **Elaborazione in Tempo Reale**: Kafka supporta l'elaborazione di flussi di dati in tempo reale, permettendo alle applicazioni di reagire immediatamente agli eventi.\n    \n- **Ecosistema Ricco**: Kafka è accompagnato da un ecosistema di strumenti, come Kafka Connect per l’integrazione con altri sistemi e Kafka Streams per l’elaborazione di dati in streaming.","x":-544,"y":-120,"width":379,"height":610},
+		{"id":"3edcf9a53de2d174","type":"text","text":"[[Architettura Pub-Sub]]","x":-1040,"y":-120,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"d38ffc84f145b90d","fromNode":"e38e8bd7daec1b96","fromSide":"bottom","toNode":"f2e8132017ab463b","toSide":"top"},
+		{"id":"1a153829482924fb","fromNode":"fceb72f45ea8184f","fromSide":"bottom","toNode":"309a6dd27a2e83fe","toSide":"top"},
+		{"id":"dc61ef873d7f6326","fromNode":"fceb72f45ea8184f","fromSide":"bottom","toNode":"1e3b2f587ae0acc6","toSide":"top"},
+		{"id":"203ebc3d9166624d","fromNode":"fceb72f45ea8184f","fromSide":"bottom","toNode":"2e41244fc19bb03b","toSide":"top"},
+		{"id":"f6ac400a635e8bc9","fromNode":"e38e8bd7daec1b96","fromSide":"bottom","toNode":"fceb72f45ea8184f","toSide":"top"},
+		{"id":"ec39609d8c334413","fromNode":"1e3b2f587ae0acc6","fromSide":"bottom","toNode":"4e5c4a32f20629ab","toSide":"top"},
+		{"id":"7045476eb06fa094","fromNode":"2e41244fc19bb03b","fromSide":"bottom","toNode":"fc001a5de985a1de","toSide":"top"},
+		{"id":"5a6010c69b072149","fromNode":"309a6dd27a2e83fe","fromSide":"bottom","toNode":"8ad8c38bf1617055","toSide":"top"},
+		{"id":"ea13519ce89a5b4c","fromNode":"e38e8bd7daec1b96","fromSide":"bottom","toNode":"d53ddaeae95d1175","toSide":"top"},
+		{"id":"5321a4bf58b557fd","fromNode":"e38e8bd7daec1b96","fromSide":"bottom","toNode":"7261d236bf9216ec","toSide":"top"},
+		{"id":"d308611cb389c4db","fromNode":"d53ddaeae95d1175","fromSide":"bottom","toNode":"e53dac91b35142eb","toSide":"top"},
+		{"id":"698ec041cff48cc7","fromNode":"7261d236bf9216ec","fromSide":"bottom","toNode":"3edcf9a53de2d174","toSide":"top"}
+	]
+}
