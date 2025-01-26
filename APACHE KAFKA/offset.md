@@ -9,9 +9,11 @@ Il **commit dell'offset** è il processo mediante il quale un consumatore comuni
 
 Esempio di configurazione: ```java props.put("enable.auto.commit", "true"); props.put("auto.commit.interval.ms", "1000"); ``` 
 
-3. **Commit manuale**: In alcuni casi, è necessario un maggiore controllo sul commit degli offset. Questo può essere utile quando l'applicazione deve garantire che i messaggi siano stati elaborati correttamente prima di eseguire il commit. In questo caso, il commit degli offset viene gestito manualmente.
+3. **Commit manuale**: In alcuni casi, è necessario un maggiore controllo sul commit degli offset. Questo può essere utile quando l'applicazione deve <span style="color:rgb(245, 0, 0)">garantire</span> che i messaggi siano stati <span style="color:rgb(245, 0, 0)">elaborati correttamente prima di eseguire il commit</span>. In questo caso, il commit degli offset viene gestito manualmente.
 Esempio di commit manuale: ```java consumer.commitSync(); ```
 
-<mark style="background: #FFB8EBA6;">Il commit manuale è essenziale nei casi in cui l'applicazione deve garantire che i dati siano stati elaborati correttamente prima di aggiornare l'offset.</mark>
+Il commit manuale è essenziale nei casi in cui l'applicazione deve garantire che i dati siano stati elaborati correttamente prima di aggiornare l'offset.
+
+
 
 

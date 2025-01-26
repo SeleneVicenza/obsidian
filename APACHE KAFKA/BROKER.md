@@ -10,7 +10,7 @@
 2. **Persistenza dei Dati**:
     
     - I broker memorizzano i messaggi su disco, garantendo che i dati siano disponibili anche dopo un riavvio.
-    - Utilizzano meccanismi di replica per garantire l'affidabilità e la disponibilità dei dati.
+    - Utilizzano meccanismi di [[Replica]] per garantire l'affidabilità e la disponibilità dei dati.
 3. **Scalabilità**:
     
     - È possibile aggiungere più broker a un cluster per gestire un volume maggiore di messaggi.
@@ -18,6 +18,6 @@
 
 ### **Vantaggi dell'Utilizzo di un Broker in Kafka**
 
-- **Affidabilità**: Grazie alla replica e alla persistenza, i broker garantiscono che i messaggi non vengano persi.
+- **Affidabilità**: Grazie alla [[Replica]] e alla persistenza, i broker garantiscono che i messaggi non vengano persi.
 - **Performance**: I broker possono gestire un alto throughput di messaggi, rendendo Kafka adatto per applicazioni in tempo reale.
 - **Flessibilità**: I broker possono essere configurati per soddisfare diverse esigenze di archiviazione e prestazioni.

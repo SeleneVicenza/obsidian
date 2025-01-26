@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"id":"0aa67278e203ecce","type":"file","file":"LARAVEL/ELOQUENT/Riproducibilità.md","x":-720,"y":-1220,"width":435,"height":240},
+		{"id":"0aa67278e203ecce","type":"file","file":"obsidian_kafka/LARAVEL/ELOQUENT/Riproducibilità.md","x":-720,"y":-1220,"width":435,"height":240},
 		{"id":"92891ea96d666504","type":"text","text":"RIPRODUCIBILITÀ","x":-605,"y":-1360,"width":205,"height":60},
-		{"id":"921a972da816e9b2","type":"file","file":"LARAVEL/ELOQUENT/Versionamento.md","x":-115,"y":-1220,"width":400,"height":160},
-		{"id":"730d827d2b3d567e","type":"file","file":"LARAVEL/ELOQUENT/Migrations.md","x":-72,"y":-1940,"width":615,"height":160},
+		{"id":"921a972da816e9b2","type":"file","file":"obsidian_kafka/LARAVEL/ELOQUENT/Versionamento.md","x":-115,"y":-1220,"width":400,"height":160},
+		{"id":"730d827d2b3d567e","type":"file","file":"obsidian_kafka/LARAVEL/ELOQUENT/Migrations.md","x":-285,"y":-1940,"width":828,"height":340},
 		{"id":"cc567a32548444a8","type":"text","text":"VERSIONAMENTO","x":-40,"y":-1360,"width":250,"height":60},
 		{"id":"61ad8bc4701d6be2","type":"text","text":"VANTAGGI ELOQUENT","x":110,"y":-2080,"width":250,"height":60,"color":"1"},
-		{"id":"91941ac71e7b8273","type":"file","file":"LARAVEL/ELOQUENT/ROLLBACK e ROLLUP.md","x":385,"y":-1220,"width":400,"height":160},
+		{"id":"91941ac71e7b8273","type":"file","file":"obsidian_kafka/LARAVEL/ELOQUENT/ROLLBACK e ROLLUP.md","x":385,"y":-1220,"width":400,"height":160},
 		{"id":"445b4adf84868465","type":"text","text":"ROLLBACK e ROLLUP","x":460,"y":-1360,"width":250,"height":60},
 		{"id":"b44dcdab9ad49e17","type":"text","text":"AMBIENTE di SVILUPPO **UNIFORME**","x":910,"y":-1360,"width":250,"height":60},
-		{"id":"bd7aaa7d4f135cc0","type":"file","file":"LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md","x":835,"y":-1220,"width":400,"height":160}
+		{"id":"bd7aaa7d4f135cc0","type":"file","file":"obsidian_kafka/LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md","x":835,"y":-1220,"width":400,"height":160}
 	],
 	"edges":[
 		{"id":"317f491c81d76e5d","fromNode":"730d827d2b3d567e","fromSide":"bottom","toNode":"92891ea96d666504","toSide":"top"},

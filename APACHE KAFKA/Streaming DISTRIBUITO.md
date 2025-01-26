@@ -13,5 +13,5 @@
 3. **Resilienza**:
     
     - I sistemi di streaming distribuito sono progettati per tollerare guasti. Se un nodo si guasta, l'elaborazione continua su altri nodi.
-    - La replica dei dati e la distribuzione consentono di mantenere l'integrità dei dati anche in caso di malfunzionamenti.
+    - La [[Replica]] dei dati e la distribuzione consentono di mantenere l'integrità dei dati anche in caso di malfunzionamenti.
 

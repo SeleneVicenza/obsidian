@@ -1,4 +1,4 @@
-- **Definizione**: Un producer è un'applicazione o un servizio che invia messaggi a un [[TOPIC]] specifico in Kafka.
+- **Definizione**: Un producer è un'applicazione o un servizio che invia messaggi al [[TOPIC]] specificato al momento dell'invio.
 - **Funzione**: I produttori pubblicano dati che possono essere letti dai consumatori.
 
 ### **Caratteristiche del Producer**
