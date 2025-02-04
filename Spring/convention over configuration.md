@@ -1,0 +1,2 @@
+Principio di design utilizzato principalmente nello sviluppo software, che suggerisce che le applicazioni dovrebbero avere delle convenzioni predefinite per ridurre la necessità di configurazioni esplicite. 
+In altre parole, se segui determinate convenzioni, il framework o il linguaggio di programmazione può assumere automaticamente alcune impostazioni, permettendo agli sviluppatori di concentrarsi di più sulla logica dell'applicazione piuttosto che sulla configurazione. 
