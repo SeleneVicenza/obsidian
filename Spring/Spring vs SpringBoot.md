@@ -139,7 +139,7 @@
 
 #### <span style="color:rgb(242, 98, 2)">Spring</span>
 
-- Devi gestire<span style="color:rgb(242, 98, 2)"> manualmente le dipendenze e le loro versioni</span>, spesso utilizzando un file <span style="color:rgb(242, 98, 2)">`pom.xml`</span> (per Maven) o <span style="color:rgb(242, 98, 2)">`build.gradle`</span> (per Gradle).
+- Devi gestire<span style="color:rgb(242, 98, 2)"> manualmente le dipendenze e le loro versioni</span>, spesso utilizzando un file <span style="color:rgb(242, 98, 2)">`pom.xml`</span> (per [[Maven]]) o <span style="color:rgb(242, 98, 2)">`build.gradle`</span> (per Gradle).
     
 
 #### Spring Boot
