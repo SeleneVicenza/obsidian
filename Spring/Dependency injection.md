@@ -53,9 +53,6 @@ In pratica, la DI permette di:
         
     
     ``` java
-    
-    Copy
-    
     @Service
     public class MyService {
         private final MyRepository repository;
