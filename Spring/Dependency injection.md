@@ -1,32 +1,29 @@
 
-Dependency injection: definizione e confronto tra angular e spring
+### Definizione 
 
-### Definizione di Dependency Injection (DI)
-
-La **Dependency Injection (DI)** è un design pattern utilizzato nella programmazione per implementare il principio di **Inversione delle Dipendenze** (Dependency Inversion Principle, uno dei principi SOLID). L'idea alla base della DI è che un oggetto non dovrebbe creare direttamente le sue dipendenze, ma queste dovrebbero essere "iniettate" dall'esterno. Questo rende il codice più modulare, testabile e mantenibile.
+La **Dependency Injection (DI)** è un design pattern utilizzato nella programmazione per implementare il principio di **Inversione delle Dipendenze** (Dependency Inversion Principle, uno dei principi SOLID). L'idea alla base della DI è che un oggetto non dovrebbe creare direttamente le sue <span style="color:rgb(238, 150, 226)">dipendenze</span>, ma queste dovrebbero essere "<span style="color:rgb(238, 150, 226)">iniettate</span>" <span style="color:rgb(238, 150, 226)">dall'esterno</span>. Questo rende il codice più modulare, testabile e mantenibile.
 
 In pratica, la DI permette di:
 
-- **Separare le responsabilità**: le classi non devono preoccuparsi di come creare le loro dipendenze.
+- **<span style="color:rgb(238, 150, 226)">Separare le responsabilità</span>**: le classi non devono preoccuparsi di come creare le loro dipendenze.
     
-- **Facilitare i test**: è più semplice sostituire le dipendenze con mock o stub durante i test.
+- <span style="color:rgb(238, 150, 226)">**Facilitare i test</span>**: è più semplice sostituire le dipendenze con mock o stub durante i test.
     
-- **Promuovere il riutilizzo del codice**: le dipendenze possono essere condivise tra più classi.
+- **Promuovere <span style="color:rgb(238, 150, 226)">il riutilizzo del codice</span>**: le dipendenze possono essere condivise tra più classi.
     
 
 ### Dependency Injection in Angular
 
-**Angular** è un framework per lo sviluppo di applicazioni web basato su TypeScript e utilizza la DI in modo nativo e integrato. Ecco come funziona:
+**<span style="color:rgb(255, 255, 0)">Angular</span>** è un framework per lo sviluppo di applicazioni web basato su TypeScript e utilizza la <span style="color:rgb(255, 255, 0)">DI in modo nativo e integrato</span>. Ecco come funziona:
 
-1. **Provider**: In Angular, le dipendenze sono fornite tramite i **provider**. Un provider è una configurazione che dice ad Angular come creare un'istanza di un servizio o di una dipendenza.
+1. **Provider**: In Angular, le <span style="color:rgb(255, 255, 0)">dipendenze</span> sono <span style="color:rgb(255, 255, 0)">fornite tramite</span> i **<span style="color:rgb(255, 255, 0)">provider</span>**. Un provider è una configurazione che dice ad Angular come creare un'istanza di un servizio o di una dipendenza.
     
-2. **Iniezione delle Dipendenze**: Angular utilizza un **iniettore** (Injector) per gestire le dipendenze. Quando un componente o un servizio richiede una dipendenza, Angular cerca nel suo iniettore e fornisce l'istanza corretta.
+2. **Iniezione delle Dipendenze**: Angular utilizza un **iniettore** (<span style="color:rgb(255, 255, 0)">Injector</span>) per<span style="color:rgb(255, 255, 0)"> gestire le dipendenze</span>. Quando un componente o un servizio richiede una dipendenza, Angular cerca nel suo iniettore e fornisce l'istanza corretta.
     
 3. **Decoratori**: Angular utilizza decoratori come `@Injectable` per indicare che una classe può essere iniettata come dipendenza. I componenti, i servizi e altri elementi possono dichiarare le loro dipendenze nel costruttore.
+    ``` typescript
     
-    typescript
     
-    Copy
     
     @Injectable({
       providedIn: 'root' // Il servizio è disponibile a livello di applicazione
@@ -34,17 +31,19 @@ In pratica, la DI permette di:
     export class MyService {
       constructor(private http: HttpClient) {}
     }
-    
-4. **Gerarchia degli Injector**: Angular ha una gerarchia di iniettori. Ogni componente può avere il proprio iniettore, che eredita dall'iniettore padre. Questo permette di avere scope diversi per le dipendenze (ad esempio, a livello di modulo, componente o applicazione).
+    ```
+
+4. **Gerarchia degli Injector**: Angular ha una<span style="color:rgb(255, 255, 0)"> gerarchia di iniettori</span>.
+5. Ogni componente può avere il proprio iniettore, che eredita dall'iniettore padre. Questo permette di avere scope diversi per le dipendenze (ad esempio, a livello di modulo, componente o applicazione).
     
 
 ### Dependency Injection in Spring
 
 **Spring** è un framework per lo sviluppo di applicazioni Java, ampiamente utilizzato per la creazione di applicazioni enterprise. Anche Spring utilizza la DI come parte del suo core, ma con alcune differenze rispetto ad Angular.
 
-1. **Container di Spring**: Spring gestisce le dipendenze attraverso un **container** (ApplicationContext). Questo container è responsabile della creazione, configurazione e gestione dei bean (oggetti gestiti da Spring).
+5. **Container di Spring**: Spring gestisce le dipendenze attraverso un **container** (ApplicationContext). Questo container è responsabile della creazione, configurazione e gestione dei bean (oggetti gestiti da Spring).
     
-2. **Configurazione delle Dipendenze**: Spring offre diversi modi per configurare le dipendenze:
+6. **Configurazione delle Dipendenze**: Spring offre diversi modi per configurare le dipendenze:
     
     - **XML-based configuration**: Le dipendenze sono configurate tramite file XML.
         
@@ -53,7 +52,7 @@ In pratica, la DI permette di:
     - **Java-based configuration**: Utilizza classi di configurazione con annotazioni come `@Configuration` e `@Bean`.
         
     
-    java
+    ``` java
     
     Copy
     
@@ -66,10 +65,11 @@ In pratica, la DI permette di:
             this.repository = repository;
         }
     }
+```
     
-3. **Scope dei Bean**: Spring supporta diversi scope per i bean, come `singleton`, `prototype`, `request`, `session`, ecc. Questo permette di controllare il ciclo di vita delle istanze.
+8. **Scope dei Bean**: Spring supporta diversi scope per i bean, come `singleton`, `prototype`, `request`, `session`, ecc. Questo permette di controllare il ciclo di vita delle istanze.
     
-4. **Iniezione delle Dipendenze**: Spring utilizza l'iniezione delle dipendenze tramite costruttore, metodi setter o campi. L'annotazione `@Autowired` è comunemente usata per indicare che una dipendenza deve essere iniettata.
+9. **Iniezione delle Dipendenze**: Spring utilizza l'iniezione delle dipendenze tramite costruttore, metodi setter o campi. L'annotazione `@Autowired` è comunemente usata per indicare che una dipendenza deve essere iniettata.
     
 
 ### Confronto tra Angular e Spring
@@ -97,9 +97,9 @@ L'**Inversione delle Dipendenze** (Dependency Inversion Principle, DIP) è uno 
 
 Il principio si compone di due affermazioni chiave:
 
-1. **I moduli di alto livello non dovrebbero dipendere da moduli di basso livello. Entrambi dovrebbero dipendere da astrazioni.**
+10. **I moduli di alto livello non dovrebbero dipendere da moduli di basso livello. Entrambi dovrebbero dipendere da astrazioni.**
     
-2. **Le astrazioni non dovrebbero dipendere dai dettagli. I dettagli dovrebbero dipendere dalle astrazioni.**
+11. **Le astrazioni non dovrebbero dipendere dai dettagli. I dettagli dovrebbero dipendere dalle astrazioni.**
     
 
 In altre parole:
@@ -128,9 +128,9 @@ L'Inversione delle Dipendenze promuove:
 
 Immaginiamo un'applicazione che gestisce l'invio di notifiche. Senza applicare il DIP, il codice potrebbe essere strutturato così:
 
-java
+``` java
 
-Copy
+
 
 // Classe di basso livello (dettaglio)
 class EmailSender {
@@ -147,14 +147,12 @@ class NotificationService {
         emailSender.sendEmail(message);
     }
 }
-
+```
 In questo esempio, la classe `NotificationService` (alto livello) dipende direttamente dalla classe `EmailSender` (basso livello). Se volessimo cambiare il metodo di invio (ad esempio, usando un SMS invece di un'email), dovremmo modificare la classe `NotificationService`.
 
 Applicando il DIP, possiamo introdurre un'astrazione:
 
-java
-
-Copy
+``` java
 
 // Astrazione (interfaccia)
 interface MessageSender {
@@ -188,7 +186,7 @@ class NotificationService {
         sender.sendMessage(message);
     }
 }
-
+```
 Ora:
 
 - La classe `NotificationService` dipende dall'astrazione `MessageSender`, non dai dettagli implementativi.
@@ -238,9 +236,7 @@ Il decoratore `@Component` è utilizzato per definire un **componente** in A
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @Component({
   selector: 'app-root',
@@ -251,7 +247,7 @@ export class AppComponent {
   title = 'My Angular App';
 }
 
----
+```
 
 ### 2. **@Directive**
 
@@ -264,9 +260,7 @@ Il decoratore `@Directive` è utilizzato per creare **direttive** personaliz
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @Directive({
   selector: '[appHighlight]'
@@ -277,7 +271,7 @@ export class HighlightDirective {
   }
 }
 
----
+```
 
 ### 3. **@Injectable**
 
@@ -290,9 +284,7 @@ Il decoratore `@Injectable` è utilizzato per definire un **servizio** in An
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @Injectable({
   providedIn: 'root'
@@ -303,7 +295,7 @@ export class DataService {
   }
 }
 
----
+```
 
 ### 4. **@NgModule**
 
@@ -324,9 +316,7 @@ Il decoratore `@NgModule` è utilizzato per definire un **modulo** in Angula
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @NgModule({
   declarations: [
@@ -342,7 +332,7 @@ Copy
 })
 export class AppModule { }
 
----
+```
 
 ### 5. **@Pipe**
 
@@ -355,9 +345,7 @@ Il decoratore `@Pipe` è utilizzato per definire una **pipe** personalizzata
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @Pipe({
   name: 'reverse'
@@ -368,7 +356,7 @@ export class ReversePipe implements PipeTransform {
   }
 }
 
----
+```
 
 ### 6. **@Input e @Output**
 
@@ -380,9 +368,7 @@ Permette a un componente padre di passare dati a un componente figlio.
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @Component({
   selector: 'app-child',
@@ -391,6 +377,7 @@ Copy
 export class ChildComponent {
   @Input() message: string;
 }
+```
 
 #### @Output
 
@@ -398,10 +385,8 @@ Permette a un componente figlio di emettere eventi verso un componente padre.
 
 #### Esempio:
 
-typescript
+``` typescript
 
-Copy
-```
 @Component({
   selector: 'app-child',
   template: `<button (click)="sendMessage()">Send</button>`
@@ -426,9 +411,7 @@ Accede a un singolo elemento figlio.
 
 #### Esempio:
 
-typescript
-
-Copy
+``` typescript
 
 @Component({
   selector: 'app-parent',
@@ -441,17 +424,15 @@ export class ParentComponent {
     console.log(this.childComponent);
   }
 }
-
+```
 #### @ViewChildren
 
 Accede a più elementi figli.
 
 #### Esempio:
 
-typescript
+``` typescript
 
-Copy
-```
 @Component({
   selector: 'app-parent',
   template: `<app-child></app-child><app-child></app-child>`
@@ -476,10 +457,8 @@ Ascolta eventi sull'elemento host.
 
 #### Esempio:
 
-typescript
+``` typescript
 
-Copy
-```
 @Directive({
   selector: '[appHostListener]'
 })
@@ -495,10 +474,8 @@ Collega una proprietà dell'elemento host a una variabile.
 
 #### Esempio:
 
-typescript
+``` typescript
 
-Copy
-```
 @Directive({
   selector: '[appHostBinding]'
 })

@@ -33,9 +33,7 @@
 - Esempio di configurazione XML in Spring:
     
 ``` xml
-    
-    
-    
+        
     <bean id="dataSource" 
 	    class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
