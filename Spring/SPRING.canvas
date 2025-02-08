@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"3a5ceba0dd3da6f0","type":"text","text":"# SPRING","x":-510,"y":-660,"width":250,"height":60,"color":"#0414f6"},
+		{"id":"76c3d537d22bda65","type":"text","text":"Web","x":-151,"y":-850,"width":112,"height":50},
+		{"id":"2524fa0675a27971","type":"text","text":"Data","x":-20,"y":-820,"width":125,"height":50},
+		{"id":"5ae5181817ec96c9","type":"text","text":"Batch","x":43,"y":-720,"width":109,"height":50},
+		{"id":"1650df9300f5f6fd","type":"text","text":"- Tomcat \n- JBoss","x":-983,"y":-424,"width":168,"height":59},
+		{"id":"9d12a67757ffb22e","type":"text","text":"Deploy file WAR","x":-800,"y":-420,"width":250,"height":50},
+		{"id":"dbbf47f8f0548488","type":"text","text":"No Web server integrato","x":-899,"y":-555,"width":250,"height":75},
+		{"id":"9f1d861b6969e604","type":"text","text":"Configurazione esplicita","x":-800,"y":-700,"width":180,"height":60},
+		{"id":"09c7c81266962143","type":"text","text":"- Database\n- Sicurezza\n- Transazioni","x":-1050,"y":-840,"width":250,"height":100},
+		{"id":"6d09c447010cde4f","type":"text","text":"Definizione di BEAN tramite annotation/xml","x":-675,"y":-850,"width":250,"height":60},
+		{"id":"142c6a60b03da9d4","type":"text","text":"Gestione Manuale delle dipendenze","x":-510,"y":-560,"width":250,"height":60},
+		{"id":"0b41f549093fabbd","type":"text","text":"[[Maven]] $=>$ pom.xlm","x":-510,"y":-465,"width":250,"height":50},
+		{"id":"6ce05cb291bb2ba5","type":"text","text":"##### Framework per applicazioni java","x":-385,"y":-810,"width":220,"height":80,"color":"4"},
+		{"id":"bc36736f1e3b6f6b","type":"text","text":"[[CORE MODULE]]","x":-145,"y":-370,"width":250,"height":60},
+		{"id":"2b2d1f0577e16d2d","type":"text","text":"Diviso in moduli (di base 20) per la gestione di applicazioni di tipo diverso","x":-210,"y":-630,"width":253,"height":110}
+	],
+	"edges":[
+		{"id":"1bf43b69d4b94902","fromNode":"3a5ceba0dd3da6f0","fromSide":"top","toNode":"6ce05cb291bb2ba5","toSide":"bottom"},
+		{"id":"ac677c8bd3a1a064","fromNode":"3a5ceba0dd3da6f0","fromSide":"right","toNode":"2b2d1f0577e16d2d","toSide":"left"},
+		{"id":"9b76a840825cc49c","fromNode":"2b2d1f0577e16d2d","fromSide":"bottom","toNode":"bc36736f1e3b6f6b","toSide":"top"},
+		{"id":"f1b81ca2560f8e22","fromNode":"2b2d1f0577e16d2d","fromSide":"top","toNode":"76c3d537d22bda65","toSide":"bottom"},
+		{"id":"fde95b8628b7c182","fromNode":"2b2d1f0577e16d2d","fromSide":"top","toNode":"5ae5181817ec96c9","toSide":"left"},
+		{"id":"b7a320e993d46bfa","fromNode":"2b2d1f0577e16d2d","fromSide":"top","toNode":"2524fa0675a27971","toSide":"bottom"},
+		{"id":"f09360676c1e5137","fromNode":"3a5ceba0dd3da6f0","fromSide":"top","toNode":"9f1d861b6969e604","toSide":"right"},
+		{"id":"0d907d08c2d1987c","fromNode":"9f1d861b6969e604","fromSide":"top","toNode":"6d09c447010cde4f","toSide":"left"},
+		{"id":"eaae07eb0a1afc1f","fromNode":"9f1d861b6969e604","fromSide":"top","toNode":"09c7c81266962143","toSide":"right"},
+		{"id":"527e80be04a7d658","fromNode":"3a5ceba0dd3da6f0","fromSide":"left","toNode":"dbbf47f8f0548488","toSide":"right"},
+		{"id":"335d70980b15c587","fromNode":"dbbf47f8f0548488","fromSide":"bottom","toNode":"9d12a67757ffb22e","toSide":"top"},
+		{"id":"1cbe9e7f206446d1","fromNode":"dbbf47f8f0548488","fromSide":"bottom","toNode":"1650df9300f5f6fd","toSide":"top"},
+		{"id":"4d8682ef5dc7fb24","fromNode":"3a5ceba0dd3da6f0","fromSide":"bottom","toNode":"142c6a60b03da9d4","toSide":"top"},
+		{"id":"2dd033c558b9b38f","fromNode":"142c6a60b03da9d4","fromSide":"bottom","toNode":"0b41f549093fabbd","toSide":"top"}
+	]
+}

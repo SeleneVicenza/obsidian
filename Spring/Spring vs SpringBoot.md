@@ -144,13 +144,11 @@
 
 #### Spring Boot
 
-- Utilizza i **<span style="color:rgb(255, 255, 0)">Spring Boot Starters</span>** , che forniscono <span style="color:rgb(255, 255, 0)">dipendenze preconfigurate e compatibili</span>.
+- Utilizza gli **<span style="color:rgb(255, 255, 0)">Spring Boot Starters</span>** , che forniscono <span style="color:rgb(255, 255, 0)">dipendenze preconfigurate e compatibili</span>.
     
 - Esempio di dipendenza in Spring Boot (In `pom.xml`):
     
     ``` xml
-    
-    Copy
     
     <dependency>
         <groupId>org.springframework.boot</groupId>

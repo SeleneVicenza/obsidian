@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"3a5ceba0dd3da6f0","type":"text","text":"# SPRING BOOT","x":-510,"y":-660,"width":310,"height":60,"color":"#0414f6"},
+		{"id":"6ce05cb291bb2ba5","type":"text","text":"#### **Estensione di Spring**","x":-300,"y":-840,"width":300,"height":80,"color":"4"},
+		{"id":"6d09c447010cde4f","type":"text","text":"Configurazione automatica basata sulle dipendenze presenti nel progetto","x":-820,"y":-980,"width":260,"height":100},
+		{"id":"9f1d861b6969e604","type":"text","text":"Configurazione manuale MINIMA","x":-670,"y":-830,"width":220,"height":70},
+		{"id":"f81b1b8fae9496d7","x":-1070,"y":-855,"width":250,"height":60,"type":"text","text":"Auto-configuration dei bean"},
+		{"id":"5420db3d0add8628","x":-1091,"y":-1140,"width":292,"height":117,"type":"text","text":"Pacchetti preconfigurati che includono tutto il necessario per una specifica funzionalità (Starter dependencies)"},
+		{"id":"dbbf47f8f0548488","type":"text","text":"Web server integrato","x":-870,"y":-655,"width":250,"height":55},
+		{"id":"9ae003fa5e4d1d4c","type":"text","text":"- Tomcat\n- Jetty","x":-1117,"y":-638,"width":172,"height":77},
+		{"id":"9d12a67757ffb22e","type":"text","text":"Deploy file JAR (STANDALONE)","x":-870,"y":-535,"width":250,"height":50},
+		{"id":"dc87ec7ec89375e2","x":-150,"y":-693,"width":270,"height":126,"type":"text","text":"- Microservizi\n- applicazioni web leggere\n- applicazioni STANDALONE"},
+		{"id":"142c6a60b03da9d4","type":"text","text":"Gestione AUTOMATICA delle dipendenze","x":-325,"y":-535,"width":250,"height":60},
+		{"id":"0b41f549093fabbd","type":"text","text":"SPRING BOOT STARTER","x":-325,"y":-440,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"1bf43b69d4b94902","fromNode":"3a5ceba0dd3da6f0","fromSide":"top","toNode":"6ce05cb291bb2ba5","toSide":"left"},
+		{"id":"f09360676c1e5137","fromNode":"3a5ceba0dd3da6f0","fromSide":"top","toNode":"9f1d861b6969e604","toSide":"right"},
+		{"id":"0d907d08c2d1987c","fromNode":"9f1d861b6969e604","fromSide":"top","toNode":"6d09c447010cde4f","toSide":"bottom"},
+		{"id":"527e80be04a7d658","fromNode":"3a5ceba0dd3da6f0","fromSide":"left","toNode":"dbbf47f8f0548488","toSide":"right"},
+		{"id":"335d70980b15c587","fromNode":"dbbf47f8f0548488","fromSide":"bottom","toNode":"9d12a67757ffb22e","toSide":"top"},
+		{"id":"4d8682ef5dc7fb24","fromNode":"3a5ceba0dd3da6f0","fromSide":"bottom","toNode":"142c6a60b03da9d4","toSide":"top"},
+		{"id":"2dd033c558b9b38f","fromNode":"142c6a60b03da9d4","fromSide":"bottom","toNode":"0b41f549093fabbd","toSide":"top"},
+		{"id":"71521de8b0816687","fromNode":"dbbf47f8f0548488","fromSide":"left","toNode":"9ae003fa5e4d1d4c","toSide":"right"},
+		{"id":"aa17d26ce5a6c7ce","fromNode":"6d09c447010cde4f","fromSide":"left","toNode":"f81b1b8fae9496d7","toSide":"top"},
+		{"id":"717c6ae09ca09b0d","fromNode":"6d09c447010cde4f","fromSide":"left","toNode":"5420db3d0add8628","toSide":"bottom"},
+		{"id":"821471185205e2bd","fromNode":"3a5ceba0dd3da6f0","fromSide":"right","toNode":"dc87ec7ec89375e2","toSide":"left"}
+	]
+}

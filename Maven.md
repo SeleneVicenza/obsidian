@@ -1,6 +1,6 @@
 **Tool di build e gestione dei progetti** basato su Java, utilizzato principalmente per la gestione delle dipendenze, la compilazione, il packaging e la distribuzione delle applicazioni.
 
-È stato sviluppato dalla **Apache Software Foundation** e si basa su un concetto chiamato **Project Object Model (POM)**, che descrive la configurazione e le dipendenze del progetto in un file XML (`pom.xml`).
+È stato sviluppato dalla **Apache Software Foundation** e si basa su un concetto chiamato **<span style="color:rgb(255, 255, 0)">Project Object Model (POM)**,</span> che descrive la <span style="color:rgb(255, 255, 0)">configurazione e le dipendenze</span> del progetto in un file XML (`pom.xml`).
 
 ## **Funzionalità Principali di Maven**
 
@@ -57,7 +57,7 @@ Esempio di un `pom.xml` base:
 ```
 
 
-## 🔹 **Comandi Base di Maven**
+## **Comandi Base di Maven**
 
 Maven utilizza una serie di **comandi CLI** per gestire il ciclo di vita del progetto:
 
@@ -70,7 +70,7 @@ Maven utilizza una serie di **comandi CLI** per gestire il ciclo di vita del pro
 |`mvn install`|Installa il pacchetto localmente|
 |`mvn deploy`|Distribuisce il pacchetto in un repository remoto|
 
-## 🔹 **Gestione delle Dipendenze in Maven**
+##  **Gestione delle Dipendenze in Maven**
 
 Maven scarica automaticamente le librerie richieste da **Maven Central Repository** e le salva nella cartella locale (`~/.m2/repository`).
 
@@ -94,7 +94,7 @@ e Maven scaricherà automaticamente la libreria necessaria.
 
 --------------------------------------------------------------------------
 
-## 🔹 **Conclusione**
+## **Conclusione**
 
 Maven è un potente tool per la gestione di progetti Java, rendendo più semplice il **controllo delle dipendenze, la compilazione e il deploy**. 
 Grazie alla sua struttura standard e al supporto per i plugin, è uno strumento essenziale nello sviluppo Java moderno.
