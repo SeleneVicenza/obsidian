@@ -18,7 +18,7 @@
 		{"id":"8ad8c38bf1617055","type":"text","text":"Inviano dati (messaggi) ai [[TOPIC]] di Kafka","x":-394,"y":-1421,"width":183,"height":58},
 		{"id":"309a6dd27a2e83fe","type":"text","text":"[[PRODUCER]]","x":-302,"y":-1313,"width":183,"height":50,"color":"2"},
 		{"id":"3edcf9a53de2d174","type":"text","text":"[[Architettura Pub-Sub]]","x":-952,"y":-1297,"width":250,"height":60},
-		{"id":"8bae39643a47e3fe","type":"text","text":"Modello di comunicazione asincrono.\n- Publiser pubblicano in specifici canali o Topic;\n- Subscriver si iscrivono ai canali e ricevono tutto ciò che viene pubblicato\n- Kafka funge da dispatcher","x":-1051,"y":-1492,"width":449,"height":143},
+		{"id":"8bae39643a47e3fe","type":"text","text":"Modello di comunicazione asincrono.\n- Publisher pubblicano in specifici canali o Topic;\n- Subscriver si iscrivono ai canali e ricevono tutto ciò che viene pubblicato\n- Kafka funge da dispatcher","x":-1051,"y":-1540,"width":448,"height":191},
 		{"id":"fc001a5de985a1de","type":"text","text":"Server che ricevono e memorizzano i dati (messaggi) nei [[TOPIC]]","x":41,"y":-1500,"width":218,"height":117},
 		{"id":"4e5c4a32f20629ab","type":"text","text":"Leggono i dati (messaggi) dai [[TOPIC]]\n","x":59,"y":-1142,"width":183,"height":58},
 		{"id":"d53ddaeae95d1175","type":"text","text":"VANTAGGI","x":-1112,"y":-870,"width":160,"height":60},
