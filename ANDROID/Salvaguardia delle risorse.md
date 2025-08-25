@@ -1,0 +1,1 @@
+Dispositivi storicamente dotati di risorse limitate --> senza perdere fluidità nella *user-experience* , distrugge e ricrea parti dell'applicazione in maniera impercettibile all'utente.

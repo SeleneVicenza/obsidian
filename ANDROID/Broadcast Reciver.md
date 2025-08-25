@@ -1,0 +1,1 @@
+Componente che reagisce a messaggi a livello di sistema (broadcast)

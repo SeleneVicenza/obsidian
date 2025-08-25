@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"3e679e978f397bc4","type":"text","text":"ANDROID","x":-181,"y":-520,"width":250,"height":60},
+		{"id":"7d756093ac22af8b","type":"text","text":"[[Salvaguardia delle risorse]]","x":-653,"y":-132,"width":250,"height":60},
+		{"id":"0adcc415b15dcc51","type":"text","text":"[[Sicurezza]]","x":-355,"y":-132,"width":250,"height":60},
+		{"id":"279a754fa0ea8c95","type":"text","text":"Principi di base","x":-500,"y":-304,"width":250,"height":60},
+		{"id":"f3c78a54addebcff","type":"text","text":"[[Activity]]","x":-67,"y":-120,"width":250,"height":60},
+		{"id":"427b0159b4f40f89","type":"text","text":"Content provider","x":313,"y":-129,"width":250,"height":60},
+		{"id":"4524b964e70843e8","type":"text","text":"[[Broadcast Reciver]]","x":280,"y":0,"width":250,"height":60},
+		{"id":"63b98e6100480d99","type":"text","text":"[[service]]","x":-23,"y":1,"width":250,"height":60},
+		{"id":"d2d527bb888c931a","type":"text","text":"Componenti principali","x":120,"y":-304,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"c1766bd729932b12","fromNode":"3e679e978f397bc4","fromSide":"bottom","toNode":"279a754fa0ea8c95","toSide":"top"},
+		{"id":"e0762d0763be346b","fromNode":"3e679e978f397bc4","fromSide":"bottom","toNode":"d2d527bb888c931a","toSide":"top"},
+		{"id":"76c28fb7ddc049dd","fromNode":"279a754fa0ea8c95","fromSide":"bottom","toNode":"7d756093ac22af8b","toSide":"top"},
+		{"id":"21e960eafc2b9946","fromNode":"279a754fa0ea8c95","fromSide":"bottom","toNode":"0adcc415b15dcc51","toSide":"top"},
+		{"id":"b607b3438806bfcd","fromNode":"d2d527bb888c931a","fromSide":"bottom","toNode":"f3c78a54addebcff","toSide":"top"},
+		{"id":"1709e4ba4aba5efd","fromNode":"d2d527bb888c931a","fromSide":"bottom","toNode":"427b0159b4f40f89","toSide":"top"},
+		{"id":"b2e2792cb26fba32","fromNode":"d2d527bb888c931a","fromSide":"bottom","toNode":"63b98e6100480d99","toSide":"top"},
+		{"id":"6443e427ce3a428f","fromNode":"d2d527bb888c931a","fromSide":"bottom","toNode":"4524b964e70843e8","toSide":"top"}
+	]
+}

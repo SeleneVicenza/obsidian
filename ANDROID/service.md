@@ -1,0 +1,1 @@
+Fornisce i dati mostrati dalle [[Activity]]. Intero lavoro svolto in backgroud.
