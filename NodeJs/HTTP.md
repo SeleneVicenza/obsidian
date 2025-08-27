@@ -85,7 +85,7 @@ Per le chiamate API è più semplice utilizzare [[AXIOS]]
 
 
 
-# Creazione del server
+# Definizione del client
 
 Un client HTTP deve:
 - aprire una connessione TCP;
