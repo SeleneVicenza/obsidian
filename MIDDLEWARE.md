@@ -39,3 +39,11 @@ Serve per:
 8. **Connessione chiusa o riutilizzata**
     - Con **HTTP/1.1 Keep-Alive**, la connessione può rimanere aperta per ulteriori richieste.
     - Con **HTTP/2**, si multiplexano più richieste sulla stessa connessione.
+
+
+# In sintesi
+
+- Ogni richiesta passa per una **pipeline di middleware**.
+- Il **flusso è lineare**: middleware → route handler → risposta.
+- Puoi interrompere in qualsiasi punto (rispondendo direttamente) oppure propagare (`next()`).
+- Questo modello è ciò che rende Express (e simili) molto **flessibili e modulari**.

@@ -176,10 +176,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1de940eed0b5837",
+  "active": "688f3d58451fcb30",
   "lastOpenFiles": [
-    "NodeJs/HTTP.md",
+    "MVC.md",
     "MIDDLEWARE.md",
+    "NodeJs/HTTP.md",
     "NodeJs/Introduzione.md",
     "NodeJs/EXPRESS.md",
     "NodeJs/AXIOS.md",
@@ -190,7 +191,6 @@
     "ANDROID/Senza nome.canvas",
     "NodeJs/Differenze tra Node.js e il browser.md",
     "Maven.md",
-    "MVC.md",
     "ORM.md",
     "APACHE KAFKA/TOPIC.md",
     "APACHE KAFKA/PRODUCER.md",
