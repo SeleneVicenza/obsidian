@@ -1,4 +1,4 @@
-**ORM** per Node.js che permette di interagire con database SQL (MySQL, MariaDB, PostgreSQL, SQLite, MSSQL) usando **oggetti JavaScript/TypeScript** invece di query SQL scritte a mano.
+**[[ORM]]** per Node.js che permette di interagire con database SQL (MySQL, MariaDB, PostgreSQL, SQLite, MSSQL) usando **oggetti JavaScript/TypeScript** invece di query SQL scritte a mano.
 
 ---
 ### Caratteristiche principali

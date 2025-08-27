@@ -25,17 +25,14 @@
             "id": "53cdd59098f3c93e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "NodeJs/Panoramica NodeJs.canvas",
-                "viewState": {
-                  "x": -51.5,
-                  "y": -728,
-                  "zoom": -0.855291499066709
-                }
+                "file": "ORM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Panoramica NodeJs"
+              "icon": "lucide-file",
+              "title": "ORM"
             }
           }
         ],
@@ -178,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 543.5
+    "width": 417.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +193,10 @@
   },
   "active": "53cdd59098f3c93e",
   "lastOpenFiles": [
+    "JPA.md",
+    "ORM.md",
     "NodeJs/SEQUILIZE.md",
     "NodeJs/Panoramica NodeJs.canvas",
-    "ORM.md",
-    "JPA.md",
     "NodeJs/mysql2.md",
     "NodeJs/Introduzione.md",
     "NodeJs/EXPRESS.md",
