@@ -9,7 +9,7 @@ In pratica è un **wrapper** sopra il modulo `http` di Node: ti evita di scriver
 1. **Routing semplice e leggibile**  
     Definisci endpoint con metodi chiari (`app.get`, `app.post`, …) invece di fare switch su `req.url`.
 
-2. **Middleware**  
+2. **[[Middleware]]**  
     Puoi incatenare funzioni che elaborano la richiesta in step (logging, autenticazione, parsing JSON, validazioni, ecc.).
 
 3. **Parsing automatico**  
@@ -64,7 +64,7 @@ app.post('/data', (req, res) => {   res.status(201).json({ received: req.body })
 
 #### Limiti:
 - Non pensato per prestazioni massime (per quelle → **Fastify**).
-- Struttura lasciata “libera”: su progetti grandi può diventare caotico se non organizzi bene cartelle e middleware.
+- Struttura lasciata “libera”: su progetti grandi può diventare caotico se non organizzi bene cartelle e [[middleware]].
 
 ---
 
