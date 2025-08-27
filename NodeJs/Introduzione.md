@@ -40,7 +40,6 @@ con la versione mjs del codice, è necessario salvarlo come `nome.mjs`file ed e
 
 ## Analisi del codice
 Questo codice include innanzitutto il [`http`modulo](https://nodejs.org/api/http.html) Node.js.
-Node.js ha una fantastica [libreria standard](https://nodejs.org/api/) , che include un supporto di prima classe per la rete.
 
 Il `createServer()`metodo `http`crea un nuovo server HTTP e lo restituisce.
 
