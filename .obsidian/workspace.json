@@ -13,15 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJs/mysql2.md",
+                "file": "JPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mysql2"
+              "title": "JPA"
+            }
+          },
+          {
+            "id": "53cdd59098f3c93e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "NodeJs/Panoramica NodeJs.canvas",
+                "viewState": {
+                  "x": -51.5,
+                  "y": -728,
+                  "zoom": -0.855291499066709
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Panoramica NodeJs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 788.5
+    "width": 543.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,9 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd48c04ce4d55471",
+  "active": "53cdd59098f3c93e",
   "lastOpenFiles": [
+    "NodeJs/SEQUILIZE.md",
     "NodeJs/Panoramica NodeJs.canvas",
+    "ORM.md",
+    "JPA.md",
     "NodeJs/mysql2.md",
     "NodeJs/Introduzione.md",
     "NodeJs/EXPRESS.md",
@@ -194,7 +215,6 @@
     "APACHE KAFKA/KAFKA.canvas",
     "ANDROID/Senza nome.canvas",
     "Maven.md",
-    "ORM.md",
     "APACHE KAFKA/TOPIC.md",
     "APACHE KAFKA/PRODUCER.md",
     "Spring/Dependency injection.md",
@@ -209,8 +229,6 @@
     "APACHE KAFKA/round-robin.md",
     "APACHE KAFKA/Storia Kafka.md",
     "APACHE KAFKA/ZooKeeper.md",
-    "APACHE KAFKA/Architettura Pub-Sub.md",
-    "Spring/Spring Boot DevTools.md",
     "Pasted image 20240530155134.png",
     "ANDROID",
     "git",
