@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2129304c116467c5",
+        "id": "79b9c2ba2e3cca1b",
         "type": "tabs",
         "children": [
           {
-            "id": "97d89c8f1ac49bfe",
+            "id": "b1de940eed0b5837",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "NodeJs/Panoramica NodeJs.canvas",
-                "viewState": {
-                  "x": -237.5,
-                  "y": -919.204550703796,
-                  "zoom": -0.788786731424729
-                }
+                "file": "NodeJs/EXPRESS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Panoramica NodeJs"
+              "icon": "lucide-file",
+              "title": "EXPRESS"
             }
           }
         ]
@@ -81,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.50418853759766,
-    "collapsed": true
+    "width": 435.50418853759766
   },
   "right": {
     "id": "5b940540e58b9d0d",
@@ -164,10 +160,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1161.5
+    "width": 836.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
@@ -179,21 +176,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97d89c8f1ac49bfe",
+  "active": "b1de940eed0b5837",
   "lastOpenFiles": [
+    "NodeJs/EXPRESS.md",
+    "NodeJs/HTTP.md",
+    "NodeJs/Introduzione.md",
+    "NodeJs/AXIOS.md",
+    "NodeJs/Panoramica NodeJs.canvas",
+    "Spring/SPRING.canvas",
+    "Spring/SPRING BOOT.canvas",
+    "APACHE KAFKA/KAFKA.canvas",
+    "ANDROID/Senza nome.canvas",
+    "NodeJs/Differenze tra Node.js e il browser.md",
     "Maven.md",
     "MVC.md",
     "ORM.md",
-    "NodeJs/Panoramica NodeJs.canvas",
     "APACHE KAFKA/TOPIC.md",
     "APACHE KAFKA/PRODUCER.md",
-    "NodeJs/Introduzione.md",
-    "APACHE KAFKA/KAFKA.canvas",
-    "NodeJs/Differenze tra Node.js e il browser.md",
-    "Spring/SPRING BOOT.canvas",
     "Spring/Dependency injection.md",
-    "ANDROID/Senza nome.canvas",
-    "Spring/SPRING.canvas",
     "NodeJs",
     "Spring/Spring vs SpringBoot.md",
     "APACHE KAFKA/BROKER.md",
@@ -211,8 +211,6 @@
     "Pasted image 20240530155134.png",
     "ANDROID/service.md",
     "ANDROID/Sicurezza.md",
-    "ANDROID/Salvaguardia delle risorse.md",
-    "ANDROID/Activity.md",
     "ANDROID",
     "git",
     "APACHE KAFKA/Pasted image 20250209101050.png",
