@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ORM.md",
+                "file": "NodeJs/SEQUILIZE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ORM"
+              "title": "SEQUILIZE"
             }
           }
         ],
@@ -175,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,13 +193,13 @@
   },
   "active": "53cdd59098f3c93e",
   "lastOpenFiles": [
-    "JPA.md",
-    "ORM.md",
-    "NodeJs/SEQUILIZE.md",
     "NodeJs/Panoramica NodeJs.canvas",
+    "NodeJs/EXPRESS.md",
+    "ORM.md",
+    "JPA.md",
+    "NodeJs/SEQUILIZE.md",
     "NodeJs/mysql2.md",
     "NodeJs/Introduzione.md",
-    "NodeJs/EXPRESS.md",
     "NodeJs/Differenze tra Node.js e il browser.md",
     "Senza nome.base",
     "Senza nome 1.base",

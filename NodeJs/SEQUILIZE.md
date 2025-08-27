@@ -68,3 +68,32 @@ await User.destroy({ where: { id: 1 } });
 ```
 
 ---
+# Sequelize CLI
+
+Analogo di "php artisan", consente di:
+- inizializzare la struttura del progetto,
+- generare modelli e migrazioni,
+- eseguire migrazioni e seed,
+- configurare connessioni multiple a database.
+
+### Installazione
+
+`npm install --save sequelize sequelize-cli npm install --save mysql2   `
+
+anche pg / sqlite3 / tedious in base al DB
+
+###### Installazione globale (opzionale):
+
+`npm install -g sequelize-cli`
+
+### Esempio comandi
+
+per generare un modello e la relativa migrazione
+
+``` bash
+
+npx sequelize-cli model:generate --name User --attributes name:string,email:string
+
+```
+
+---
