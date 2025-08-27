@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJs/HTTP.md",
+                "file": "MIDDLEWARE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "MIDDLEWARE"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "b1de940eed0b5837",
   "lastOpenFiles": [
-    "NodeJs/Introduzione.md",
     "NodeJs/HTTP.md",
+    "MIDDLEWARE.md",
+    "NodeJs/Introduzione.md",
     "NodeJs/EXPRESS.md",
     "NodeJs/AXIOS.md",
     "NodeJs/Panoramica NodeJs.canvas",
@@ -210,7 +211,6 @@
     "ANDROID/Broadcast Reciver.md",
     "Pasted image 20240530155134.png",
     "ANDROID/service.md",
-    "ANDROID/Sicurezza.md",
     "ANDROID",
     "git",
     "APACHE KAFKA/Pasted image 20250209101050.png",
