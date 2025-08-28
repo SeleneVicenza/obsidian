@@ -72,4 +72,4 @@ app.post('/data', (req, res) => {   res.status(201).json({ received: req.body })
 
 **Express è la scelta migliore per iniziare con server e API in Node.js**, grazie alla sua semplicità e alla community vastissima.  
 
-Una volta acquisita dimestichezza, se serve più performance o struttura, si può valutare **Fastify** o **NestJS**.
+Una volta acquisita dimestichezza, se serve più performance o struttura, si può valutare **Fastify** o **[[NestJS]]**.

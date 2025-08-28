@@ -4,7 +4,7 @@
 - messaggi di feedback per l’utente,
 - comunicazioni “usa e getta” tra redirect consecutivi.
 
-==Richiede **sessioni attive**, quindi va usato insieme a [[express-session]].==
+==Richiede **sessioni attive**, quindi va usato insieme a [[Express-session]].==
 
 ---
 ### Installazione
@@ -26,7 +26,7 @@ npm install connect-flash
 ### Vantaggi
 
 - Semplice e leggero.
-- Integrato con sessione → non richiede DB o storage separato.
+- Integrato con session → non richiede DB o storage separato.
 - Ottimo per UX con redirect (es. dopo POST → Redirect → GET).
 
 
@@ -34,7 +34,6 @@ npm install connect-flash
 
 ### Attenzioni operative
 
-- Necessita **`express-session`** o compatibile.
 - I messaggi sono **transitori**: disponibili solo per la richiesta successiva.
 - Non adatto per **log persistenti** o notifiche complesse.
 
