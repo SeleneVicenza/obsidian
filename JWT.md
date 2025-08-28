@@ -1,5 +1,8 @@
 Standard aperto per lo scambio sicuro di informazioni tra due parti sotto forma di un oggetto JSON firmato digitalmente; abilita **autenticazione/autorizzazione stateless**.
 
+Il server genera e cripta il token, il browser/client lo mantiene in memoria (localStorage) e lo rimanda al server ad ogni richiesta.
+
+
 ### 1. Autenticazione
 
 - L’utente invia **username/password**.
