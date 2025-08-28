@@ -102,4 +102,6 @@ npx sequelize-cli model:generate --name User --attributes name:string,email:stri
 
 ```
 
+<mark style="background: #FFB86CA6;">"npx" può essere omesso se la CLI è installata</mark>
+
 ---
