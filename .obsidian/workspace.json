@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "172c7835057751b2",
+        "id": "bcd24c78af5ae1a7",
         "type": "tabs",
         "children": [
           {
-            "id": "cd48c04ce4d55471",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JPA"
-            }
-          },
-          {
-            "id": "53cdd59098f3c93e",
+            "id": "2858ec406921deee",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "SEQUILIZE"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "migration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.50418853759766
+    "width": 473.50418853759766
   },
   "right": {
     "id": "5b940540e58b9d0d",
@@ -175,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,13 +176,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53cdd59098f3c93e",
+  "active": "2858ec406921deee",
   "lastOpenFiles": [
-    "NodeJs/Panoramica NodeJs.canvas",
-    "NodeJs/EXPRESS.md",
-    "ORM.md",
-    "JPA.md",
+    "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
+    "obsidian_kafka/LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md",
+    "obsidian_kafka/LARAVEL/ELOQUENT",
+    "obsidian_kafka/LARAVEL",
+    "obsidian_kafka",
+    "LARAVEL/ELOQUENT/ROLLBACK e ROLLUP.md",
+    "LARAVEL/ELOQUENT/Riproducibilità.md",
+    "LARAVEL/ELOQUENT/ELOQUENT.md",
     "NodeJs/SEQUILIZE.md",
+    "LARAVEL/ELOQUENT/Migration.md",
+    "APACHE KAFKA/Architettura Pub-Sub.md",
+    "APACHE KAFKA/Pasted image 20250209101050.png",
+    "APACHE KAFKA/Pasted image 20250209100943.png",
+    "NodeJs/Panoramica NodeJs.canvas",
+    "JPA.md",
+    "NodeJs/AXIOS.md",
+    "ORM.md",
+    "NodeJs/EXPRESS.md",
     "NodeJs/mysql2.md",
     "NodeJs/Introduzione.md",
     "NodeJs/Differenze tra Node.js e il browser.md",
@@ -206,7 +204,6 @@
     "NodeJs/HTTP.md",
     "MIDDLEWARE.md",
     "MVC.md",
-    "NodeJs/AXIOS.md",
     "Spring/SPRING.canvas",
     "Spring/SPRING BOOT.canvas",
     "APACHE KAFKA/KAFKA.canvas",
@@ -220,26 +217,14 @@
     "APACHE KAFKA/BROKER.md",
     "APACHE KAFKA/CONSUMER.md",
     "APACHE KAFKA/KAFKA CONNECT API.md",
-    "APACHE KAFKA/Kafka Consumer API.md",
-    "APACHE KAFKA/Kafka Producer API.md",
-    "APACHE KAFKA/KAFKA STREAM API.md",
-    "APACHE KAFKA/round-robin.md",
-    "APACHE KAFKA/Storia Kafka.md",
-    "APACHE KAFKA/ZooKeeper.md",
     "Pasted image 20240530155134.png",
     "ANDROID",
     "git",
-    "APACHE KAFKA/Pasted image 20250209101050.png",
-    "APACHE KAFKA/Pasted image 20250209100943.png",
     "Spring",
     "LARAVEL/BLADE.canvas",
     "LARAVEL/LARAVEL.canvas",
     "Senza nome.canvas",
-    "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
     "APACHE KAFKA/Architettura Pub",
-    "APACHE KAFKA/Senza nome 1.canvas",
-    "APACHE KAFKA",
-    "LARAVEL/ELOQUENT",
-    "LARAVEL"
+    "APACHE KAFKA/Senza nome 1.canvas"
   ]
 }

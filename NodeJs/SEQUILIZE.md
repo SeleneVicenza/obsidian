@@ -7,7 +7,7 @@
 - Definizione dei modelli (tabelle) come **classi JavaScript**.
 - Mapping tra oggetti e record DB (**CRUD** semplificato).
 - Gestione delle **relazioni** (1:1, 1:N, N:M).
-- Migrazioni per evoluzione dello schema DB.
+- [[Migration]] per evoluzione dello schema DB.
 - API **Promise-based**, compatibile con `async/await`.
 - Supporto a **validazioni** e **hook** (beforeCreate, afterUpdate, ecc.).
 
@@ -17,7 +17,7 @@
 - **Astrazione del SQL**: riduce il codice SQL da scrivere a mano.
 - **Produttività**: operazioni CRUD rapide e consistenti.
 - **Portabilità**: stesso codice su database diversi.
-- **Struttura**: organizza meglio modelli, relazioni e migrazioni.
+- **Struttura**: organizza meglio modelli, relazioni e [[migration]].
 - **Integrazione**: Express, NestJS, Fastify.
 
 ---
@@ -72,8 +72,8 @@ await User.destroy({ where: { id: 1 } });
 
 Analogo di "php artisan", consente di:
 - inizializzare la struttura del progetto,
-- generare modelli e migrazioni,
-- eseguire migrazioni e seed,
+- generare modelli e [[migration]],
+- eseguire [[migration]] e seed,
 - configurare connessioni multiple a database.
 
 ### Installazione
@@ -86,9 +86,15 @@ anche pg / sqlite3 / tedious in base al DB
 
 `npm install -g sequelize-cli`
 
+
+<mark style="background: #FFB86CA6;">UTILIZZARE LA CLI SENZA INSTALLAZIONE</mark>
+``` bash
+npx sequelize-cli init
+```
+
 ### Esempio comandi
 
-per generare un modello e la relativa migrazione
+per generare un modello e la relativa [[migration]]
 
 ``` bash
 
