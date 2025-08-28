@@ -43,7 +43,7 @@ Contiene le **claims** (informazioni):
 
 
 ``` JSON 
-{   "sub": "1234567890",   "name": "Selene",   "role": "admin",   "iat": 1516239022,   "exp": 1516242622 }`
+{   "sub": "1234567890",   "name": "Selene",   "role": "admin",   "iat": 1516239022,   "exp": 1516242622 }
 ```
 
 ### 3. Signature
