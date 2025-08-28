@@ -51,7 +51,9 @@ Contiene le **claims** (informazioni):
 Serve a verificare integrità e autenticità.
 
 ``` SCSS
-HMACSHA256(   base64UrlEncode(header) + "." + base64UrlEncode(payload),   secret )
+
+HMACSHA256(   base64UrlEncode(header) + "." + base64UrlEncode(payload),   secret ) 
+
 ```
 
 ---
