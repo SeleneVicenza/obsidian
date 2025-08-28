@@ -1,5 +1,8 @@
 **[[ORM]]** per Node.js che permette di interagire con database SQL (MySQL, MariaDB, PostgreSQL, SQLite, MSSQL) usando **oggetti JavaScript/TypeScript** invece di query SQL scritte a mano.
 
+
+https://sequelize.org/docs/v6/category/core-concepts/
+
 ---
 ### Caratteristiche principali
 
