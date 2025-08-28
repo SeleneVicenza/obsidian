@@ -25,7 +25,7 @@ In pratica è un **wrapper** sopra il modulo `http` di Node: ti evita di scriver
 
 # Esempio
 
-``` node
+``` js
 
 const express = require('express'); const app = express(); const PORT = 3000; 
  

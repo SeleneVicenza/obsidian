@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJs/SEQUILIZE.md",
-                "mode": "source",
+                "file": "NodeJs/AXIOS.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SEQUILIZE"
+              "title": "AXIOS"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "migration",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 473.50418853759766
+    "width": 256.50418853759766
   },
   "right": {
     "id": "5b940540e58b9d0d",
@@ -139,10 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APACHE KAFKA/MESSAGGI.md"
+                "file": "NodeJs/AXIOS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di MESSAGGI"
+              "title": "Struttura di AXIOS"
             }
           },
           {
@@ -160,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,6 +181,16 @@
   },
   "active": "2858ec406921deee",
   "lastOpenFiles": [
+    "NodeJs/Differenze tra Node.js e il browser.md",
+    "NodeJs/EXPRESS.md",
+    "NodeJs/HTTP.md",
+    "NodeJs/Introduzione.md",
+    "NodeJs/mysql2.md",
+    "NodeJs/Panoramica NodeJs.canvas",
+    "NodeJs/SEQUILIZE.md",
+    "NodeJs/AXIOS.md",
+    "JPA.md",
+    "Senza nome.base",
     "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
     "obsidian_kafka/LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md",
     "obsidian_kafka/LARAVEL/ELOQUENT",
@@ -186,22 +199,12 @@
     "LARAVEL/ELOQUENT/ROLLBACK e ROLLUP.md",
     "LARAVEL/ELOQUENT/Riproducibilità.md",
     "LARAVEL/ELOQUENT/ELOQUENT.md",
-    "NodeJs/SEQUILIZE.md",
     "LARAVEL/ELOQUENT/Migration.md",
     "APACHE KAFKA/Architettura Pub-Sub.md",
     "APACHE KAFKA/Pasted image 20250209101050.png",
     "APACHE KAFKA/Pasted image 20250209100943.png",
-    "NodeJs/Panoramica NodeJs.canvas",
-    "JPA.md",
-    "NodeJs/AXIOS.md",
     "ORM.md",
-    "NodeJs/EXPRESS.md",
-    "NodeJs/mysql2.md",
-    "NodeJs/Introduzione.md",
-    "NodeJs/Differenze tra Node.js e il browser.md",
-    "Senza nome.base",
     "Senza nome 1.base",
-    "NodeJs/HTTP.md",
     "MIDDLEWARE.md",
     "MVC.md",
     "Spring/SPRING.canvas",

@@ -23,7 +23,7 @@ Un server HTTP in Node:
 - produce una `response` (flusso dati in uscita, con header, status code e body).
 
 
-``` node
+``` js
 
 const http = require('http');
 const url = require('url');
@@ -92,7 +92,7 @@ Un client HTTP deve:
 - mandare un pacchetto con `method`, `path`, `headers` e `body`;
 - ricevere la risposta e leggerla a chunk.
 
-``` node
+``` js
 
 const request = require('request');`
 `request('http://localhost:2000', (err, response, body) =>{`

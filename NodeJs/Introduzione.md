@@ -15,7 +15,7 @@ In Node.js i nuovi standard ECMAScript possono essere utilizzati senza problemi,
 ## ESEMPIO di APPLICAZIONE
 
 - Server web "Hello World"
-``` node
+``` js
 
 const { createServer } = require('node:http');
 
