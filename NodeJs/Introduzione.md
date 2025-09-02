@@ -1,16 +1,11 @@
-Node.js è un **ambiente di runtime JavaScript** open source e multipiattaforma. È uno strumento popolare per quasi ogni tipo di progetto!
+Node.js è un **ambiente di runtime JavaScript** open source e multipiattaforma.
+-  **esegue il motore JavaScript V8**, il cuore di Google Chrome, **esternamente al browser** $->$ molto performante.
 
-Node.js **esegue il motore JavaScript V8**, il cuore di Google Chrome, **esternamente al browser**. Questo gli consente di essere molto performante.
+Un'app Node.js viene eseguita in un **singolo processo**, senza creare un nuovo thread per ogni richiesta. 
 
-Un'app Node.js viene eseguita in un **singolo processo**, senza creare un nuovo thread per ogni richiesta. Node.js fornisce un set di **primitive di I/O asincrone** nella sua libreria standard che impediscono il blocco del codice JavaScript. Inoltre, le librerie in Node.js sono generalmente scritte utilizzando paradigmi non bloccanti. Di conseguenza, il **comportamento bloccante è l'eccezione** piuttosto che la norma in Node.js.
+- Node.js fornisce un set di **primitive di I/O asincrone** nella sua libreria standard che impediscono il blocco del codice JavaScript. Inoltre, le librerie in Node.js sono generalmente scritte utilizzando paradigmi non bloccanti. Di conseguenza, il **comportamento bloccante è l'eccezione** piuttosto che la norma in Node.js.
 
-Quando Node.js esegue un'operazione di I/O, come la lettura dalla rete, l'accesso a un database o al file system, invece di bloccare il thread e sprecare cicli di CPU in attesa, Node.js riprenderà le operazioni quando riceverà la risposta.
-
-Ciò consente a Node.js di gestire **migliaia di connessioni simultanee con un singolo server** senza dover gestire la concorrenza dei thread, che potrebbe essere una fonte significativa di bug.
-
-Node.js ha un vantaggio unico perché milioni di sviluppatori frontend che scrivono JavaScript per il browser sono ora in grado di scrivere il codice lato server oltre al codice lato client senza dover imparare un linguaggio completamente diverso.
-
-In Node.js i nuovi standard ECMAScript possono essere utilizzati senza problemi, poiché non devi aspettare che tutti i tuoi utenti aggiornino i loro browser: sei tu a decidere quale versione di ECMAScript utilizzare modificando la versione di Node.js e puoi anche abilitare specifiche funzionalità sperimentali eseguendo Node.js con i flag.
+Quando Node.js esegue un'operazione di I/O, come la lettura dalla rete, l'accesso a un database o al file system, invece di bloccare il thread e sprecare cicli di CPU in attesa, Node.js riprenderà le operazioni quando riceverà la risposta $->$ gestire **migliaia di connessioni simultanee con un singolo server** senza dover gestire la concorrenza dei thread, che potrebbe essere una fonte significativa di bug.
 
 ## ESEMPIO di APPLICAZIONE
 
