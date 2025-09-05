@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b458781ed4e95fb9",
+        "id": "65baed85bc2720db",
         "type": "tabs",
         "children": [
           {
-            "id": "1c1ab44c606a6569",
+            "id": "7eef662609da3566",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Database NoSQL/MONGO DB/Primary key.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "Primary key"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "Segnalibri"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -160,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,13 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c1ab44c606a6569",
+  "active": "7eef662609da3566",
   "lastOpenFiles": [
+    "Database NoSQL/MONGO DB/MONGO DB.md",
     "Database NoSQL/MONGO DB/Primary key.md",
     "Database NoSQL/Database NoSQL.md",
     "Database NoSQL/MONGO DB",
     "Database NoSQL/JSON vs BSON.md",
-    "Database NoSQL/MONGO DB/MONGO DB.md",
     "JSON/BSON.md",
     "JSON",
     "Database NoSQL",

@@ -76,3 +76,72 @@ db.users.createIndex(   { email: 1 },   { unique: true, partialFilterExpression:
 
 > In cluster **shardato**: gli indici univoci **devono includere il prefisso della shard key** (o essere sull’`_id`). Pianifica la chiave di shard di conseguenza.
 
+## 2) Upsert idempotenti (evitare duplicati da race conditions / retry)
+
+Pattern: **chiave naturale** o **chiave tecnica** con indice univoco + `upsert: true`.
+
+``` js 
+// Se esiste, aggiorna; altrimenti inserisce (senza creare duplicati) 
+db.users.updateOne(   { email: "selene@example.com" },       
+// filtro su chiave unica   
+{ $set: { nome: "Selene", ruolo: "Analista" } },   { upsert: true } )
+
+```
+
+- In caso di retry o richieste concorrenti, l’indice unico garantisce **idempotenza**.
+
+
+---
+
+## 3) Evitare duplicati **dentro gli array**
+
+`$addToSet` invece di `$push` (lista).
+
+``` js
+// Non duplica l’elemento se già presente 
+db.liste.updateOne(   { _id: 1 },   { $addToSet: { tags: "opcu" } } ) 
+// Per più valori: 
+db.liste.updateOne(   { _id: 1 },   { $addToSet: { tags: { $each: ["opcu", "scanner", "keyence"] } } } )
+```
+
+---
+
+## 4) Validazione di schema (complementare)
+
+Non rimuove duplicati, ma aiuta a **normalizzare** i dati (es. lowercase) prima del vincolo di unicità.
+
+``` js
+db.createCollection("users", {   validator: {     $jsonSchema: {       bsonType: "object",       required: ["email"],       properties: {         email: { bsonType: "string", pattern: "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" }       }     }   } }) 
+// In app: salva sempre email in lowercase → poi indice unico su { email: 1 }
+```
+
+
+# Bonificare duplicati già presenti
+
+Prima di creare l’indice unico, identifica e risolvi.
+
+## 1 Trova duplicati per campo
+
+``` js
+db.users.aggregate([   { $group: { _id: { email: "$email" }, ids: { $push: "$_id" }, count: { $sum: 1 } } },   { $match: { count: { $gt: 1 } } } ])
+```
+
+## 2 Tenere il “primo” e rimuovere gli altri
+
+_(Versione semplice, lato client o script Node.js)_
+
+``` js
+
+const dups = db.users.aggregate([   { $group: { _id: "$email", ids: { $push: "$_id" }, count: { $sum: 1 } } },   { $match: { count: { $gt: 1 } } } ]).toArray();  dups.forEach(g => {   g.ids.shift(); 
+// tieni il primo   
+db.users.deleteMany({ _id: { $in: g.ids } }); });
+
+```
+
+- indice unico:
+
+``` js
+
+db.users.createIndex({ email: 1 }, { unique: true })
+
+```
