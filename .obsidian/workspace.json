@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0d4124cbb25502b0",
+        "id": "b458781ed4e95fb9",
         "type": "tabs",
         "children": [
           {
-            "id": "bc75c2b1e9cdda6c",
+            "id": "1c1ab44c606a6569",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NodeJs/Introduzione.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduzione"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JWT",
+                "query": "promi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +70,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,43 +176,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc75c2b1e9cdda6c",
+  "active": "1c1ab44c606a6569",
   "lastOpenFiles": [
+    "Database NoSQL/MONGO DB/Primary key.md",
+    "Database NoSQL/Database NoSQL.md",
+    "Database NoSQL/MONGO DB",
+    "Database NoSQL/JSON vs BSON.md",
+    "Database NoSQL/MONGO DB/MONGO DB.md",
+    "JSON/BSON.md",
+    "JSON",
+    "Database NoSQL",
+    "NodeJs/Panoramica NodeJs.canvas",
     "JWT.md",
+    "JPA.md",
+    "Maven.md",
+    "Spring/Dependency injection.md",
+    "Spring/convention over configuration.md",
+    "NodeJs/HTTP.md",
+    "obsidian_kafka/LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md",
+    "NodeJs/Express-session.md",
+    "NodeJs/Introduzione.md",
     "NodeJs/NestJS.md",
     "WebSocket.md",
-    "Spring/Dependency injection.md",
     "Proxy.md",
     "NodeJs/EXPRESS.md",
     "NodeJs/Connect-flash.md",
-    "NodeJs/Express-session.md",
     "MIDDLEWARE.md",
-    "NodeJs/Panoramica NodeJs.canvas",
     "sessioni utente.md",
     "Sessione utente.md",
     "NodeJs/AXIOS.md",
     "NodeJs/Differenze tra Node.js e il browser.md",
-    "NodeJs/HTTP.md",
-    "NodeJs/Introduzione.md",
     "NodeJs/mysql2.md",
     "NodeJs/SEQUILIZE.md",
-    "JPA.md",
     "Senza nome.base",
     "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
-    "obsidian_kafka/LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md",
     "obsidian_kafka/LARAVEL/ELOQUENT",
     "obsidian_kafka/LARAVEL",
     "obsidian_kafka",
-    "LARAVEL/ELOQUENT/ROLLBACK e ROLLUP.md",
-    "LARAVEL/ELOQUENT/Riproducibilità.md",
-    "LARAVEL/ELOQUENT/ELOQUENT.md",
-    "LARAVEL/ELOQUENT/Migration.md",
-    "APACHE KAFKA/Architettura Pub-Sub.md",
     "APACHE KAFKA/Pasted image 20250209101050.png",
     "APACHE KAFKA/Pasted image 20250209100943.png",
-    "ORM.md",
     "Senza nome 1.base",
-    "MVC.md",
     "Spring/SPRING.canvas",
     "Spring/SPRING BOOT.canvas",
     "APACHE KAFKA/KAFKA.canvas",
@@ -223,12 +223,9 @@
     "NodeJs",
     "Pasted image 20240530155134.png",
     "ANDROID",
-    "git",
-    "Spring",
     "LARAVEL/BLADE.canvas",
     "LARAVEL/LARAVEL.canvas",
     "Senza nome.canvas",
-    "APACHE KAFKA/Architettura Pub",
     "APACHE KAFKA/Senza nome 1.canvas"
   ]
 }

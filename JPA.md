@@ -69,7 +69,7 @@ In questo esempio, `EntityManager` gestisce il ciclo di vita dell'oggetto `Perso
 ### Framework che implementano JPA:
 
 - **Hibernate**: Il più popolare framework che implementa JPA. Molti progetti Java, come quelli basati su Spring, utilizzano Hibernate come implementazione di JPA.
-- **EclipseLink**: Un altro popolare framework di implementazione JPA.
-- **OpenJPA**: Un altro framework che implementa JPA, sviluppato da Apache.
+- **EclipseLink**: framework di implementazione JPA.
+- **OpenJPA**: framework  sviluppato da Apache.
 
 JPA fornisce quindi un approccio standardizzato per la persistenza dei dati, riducendo la complessità rispetto alla gestione manuale delle query SQL e rendendo il codice Java più elegante e facilmente manutenibile.
