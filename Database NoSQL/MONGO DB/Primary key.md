@@ -74,7 +74,7 @@ db.users.createIndex(   { email: 1 },   { unique: true, partialFilterExpression:
 ```
 
 
-> In cluster **shardato**: gli indici univoci **devono includere il prefisso della shard key** (o essere sull’`_id`). Pianifica la chiave di shard di conseguenza.
+> In cluster shardato ([[sharding]]): gli indici univoci **devono includere il prefisso della shard key** (o essere sull’`_id`). Pianifica la chiave di shard di conseguenza.
 
 ## 2) Upsert idempotenti (evitare duplicati da race conditions / retry)
 
