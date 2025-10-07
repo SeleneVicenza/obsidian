@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Promise.md",
+                "file": "Vue.js/Concetti chiave.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise"
+              "title": "Concetti chiave"
             }
           }
         ]
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 356.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +181,18 @@
   },
   "active": "7eef662609da3566",
   "lastOpenFiles": [
-    "Database NoSQL/MONGO DB/Primary key.md",
+    "Vue.js/INTRODUZIONE.md",
+    "Vue.js/Concetti chiave.md",
+    "REACT/Concetti chiave.md",
+    "Vue.js",
+    "LARAVEL/Concetti chiave.md",
+    "LARAVEL/LARAVEL.canvas",
+    "REACT/Introduzione.md",
+    "node-red/Node-red.md",
+    "REACT",
     "Promise.md",
+    "node-red",
+    "Database NoSQL/MONGO DB/Primary key.md",
     "Database NoSQL/MONGO DB/Sharding.md",
     "Database NoSQL/MONGO DB/scatter-gather.md",
     "Database NoSQL/MONGO DB/MONGO DB.md",
@@ -205,12 +215,6 @@
     "NodeJs/NestJS.md",
     "WebSocket.md",
     "Proxy.md",
-    "NodeJs/EXPRESS.md",
-    "NodeJs/Connect-flash.md",
-    "MIDDLEWARE.md",
-    "sessioni utente.md",
-    "Sessione utente.md",
-    "NodeJs/AXIOS.md",
     "Senza nome.base",
     "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
     "obsidian_kafka/LARAVEL/ELOQUENT",
@@ -218,16 +222,12 @@
     "obsidian_kafka",
     "APACHE KAFKA/Pasted image 20250209101050.png",
     "APACHE KAFKA/Pasted image 20250209100943.png",
-    "Senza nome 1.base",
     "Spring/SPRING.canvas",
     "Spring/SPRING BOOT.canvas",
     "APACHE KAFKA/KAFKA.canvas",
     "ANDROID/Senza nome.canvas",
-    "NodeJs",
     "Pasted image 20240530155134.png",
-    "ANDROID",
     "LARAVEL/BLADE.canvas",
-    "LARAVEL/LARAVEL.canvas",
     "Senza nome.canvas",
     "APACHE KAFKA/Senza nome 1.canvas"
   ]
