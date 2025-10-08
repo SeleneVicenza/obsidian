@@ -204,7 +204,7 @@ Si concentra sulla dichiarazione di variabili di stato reattive direttamente nel
 1. **Reattività:** ogni variabile in `data()` è “osservata” da Vue.  
     Se cambia, la UI si aggiorna automaticamente.
 
-2. **Direttive:** arricchiscono l’HTML (es. `v-for`, `v-if`, `v-model`).
+2. **[[Direttive]]:** arricchiscono l’HTML (es. `v-for`, `v-if`, `v-model`).
 
 3. **Componenti:** blocchi riutilizzabili che compongono l’interfaccia.
 

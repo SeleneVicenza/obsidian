@@ -22,7 +22,7 @@ Equivale a `useState()` + `setState()`
 
 ---
 
-##  2. **Direttive (Directives)**
+##  2. **[[Direttive]] (Directives)**
 
 ### Cos’è
 
@@ -42,9 +42,7 @@ Sono la base della sintassi dichiarativa di Vue.
 ### Da ricordare
 
 - Le direttive rendono il template _reattivo e leggibile_
-    
 - Si possono creare **direttive personalizzate** (`app.directive()`)
-    
 
 ### In React
 
