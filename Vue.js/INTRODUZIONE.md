@@ -1,27 +1,52 @@
-Vue.js è un **framework JavaScript progressivo** per la costruzione di **interfacce utente reattive e modulari**.  
+Framework JavaScript per la costruzione di interfacce utente. Si basa su standard HTML, CSS e JavaScript e fornisce un modello di programmazione **dichiarativo** e **basato su componenti** che ti aiuta a sviluppare in modo efficiente interfacce utente, siano esse semplici o complesse.
 
-“Progressivo” significa che può essere introdotto gradualmente:
-- puoi usarlo solo per gestire una parte della pagina,
-- oppure come framework completo con routing, stato globale e build Vite.
+``` js
+import { createApp, ref } from 'vue' 
+
+createApp({ 
+	setup() { 
+		return { 
+			count: ref(0) 
+		} 
+	} 
+}).mount('#app')
+```
+
+``` html
+<div id="app"> 
+	<button @click="count++"> 
+		Il conteggio è: {{ count }} 
+	</button> 
+</div>
+```
+
+**Risultato**
+Il conteggio è: 0
+
+Due caratteristiche fondamentali di Vue:
+
+- **Rendering Dichiarativo**: Vue estende l'HTML standard con una sintassi di template che ci permette di descrivere in modo dichiarativo l'output HTML basato sullo stato JavaScript.
+
+	logica è _dichiarativa_:
+	“descrivo **cosa** deve succedere nel DOM, non **come** farlo.”
+
+
+- **Reattività**: Vue traccia automaticamente i cambiamenti dello stato JavaScript e aggiorna in modo efficiente il DOM quando avvengono modifiche.
 
 ---
+## Framework Progressivo
 
-Vue nasce per **semplificare la creazione di interfacce dinamiche** combinando:
-- la **leggibilità dell’HTML**,
-- la **potenza di JavaScript moderno**,
-- la **reattività automatica** del modello dati.
+Vue è un framework e un ecosistema che copre la maggior parte delle caratteristiche necessarie allo sviluppo frontend. Ma il web è estremamente vario - le cose che costruiamo sul web possono essere estremamente differenti nella forma e nella grandezza $=>$ progettato per essere flessibile e **favorirne l'uso in modo incrementale**. 
+
+Utilizzato in modi diversi:
+- Migliorare l'HTML statico senza l'uso della compilazione
+- Incorporare Web Components su qualsiasi pagina
+- Applicazioni Single-Page (SPA)
+- Fullstack / Rendering Server-Side (SSR)
+- Jamstack / Generazione di Siti Statici (SSG)
+- per usi su desktop, mobile, WebGL e perfino al terminale
 
 
-La logica è _dichiarativa_:
-
-> “descrivo **cosa** deve succedere nel DOM, non **come** farlo.”
-
-Esempio:
-
-`<p>{{ message }}</p>`
-
-Il DOM si aggiorna da solo ogni volta che `message` cambia.  
-Non serve più scrivere `document.querySelector()` o manipolare il DOM manualmente.
 
 ---
 ## Architettura base
@@ -63,6 +88,117 @@ I moduli più usati sono:
 
 ---
 
+## Componenti Single-File[​](https://it.vuejs.org/guide/introduction.html#single-file-components)
+
+Nei progetti Vue che sfruttano gli strumenti di compilazione, i componenti Vue vengono creati utilizzando un formato di file simile a HTML chiamato **Single-File Component** (Componente in un singolo file, anche noto come file `*.vue` , abbreviato in **SFC**). Un file SFC, come suggerisce il nome, incorpora in un singolo file la logica (JavaScript), il template (HTML) e lo stile (CSS) del componente. 
+
+Esempio precedente, riscritto in formato SFC:
+
+
+
+```vue
+<script setup>
+import { ref } from 'vue'
+const count = ref(0)
+</script>
+
+<template>
+  <button @click="count++">Il conteggio è: {{ count }}</button>
+</template>
+
+<style scoped>
+button {
+  font-weight: bold;
+}
+</style>
+```
+
+L'SFC è una caratteristica distintiva di Vue ed è il modo consigliato per la creazione di componenti Vue **se** il progetto richiede l'uso e la configurazione della compilazione.
+
+Vue si occuperà di tutta la configurazione degli strumenti di compilazione.
+
+---
+## Stili delle API
+
+Due diversi stili di API: **Options API** e **Composition API**.
+
+### Options API
+
+Logica di un componente $=>$ oggetto contenente opzioni come `data`, `methods`, and `mounted`. 
+
+Le proprietà definite dalle opzioni vengono esposte all'interno delle funzioni su `this`, che fa riferimento all'istanza del componente:
+
+``` vue
+<script>
+export default {
+  // Le proprietà restituite da data() diventano parte dello stato reattivo.
+  // e saranno esposte su `this`.
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // I metodi sono funzioni che modificano lo stato e innescano degli aggiornamenti.
+  // Possono essere usati come gestori di eventi nei template (tramite `v-on`).
+  methods: {
+    increment() {
+      this.count++
+    }
+  },
+
+  // Gli hook del ciclo di vita vengono chiamati in diverse fasi
+  // del ciclo di vita di un componente.
+  // Questa funzione verrà chiamata quando il componente sarà montato.
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+</script>
+
+<template>
+  <button @click="increment">Il conteggio è: {{ count }}</button>
+</template>
+```
+
+Incentrata sul concetto di "component instance" ('istanza di componente', `this` nell'esempio), che tipicamente si allinea meglio con un **modello mentale basato sulle Classi** per gli utenti provenienti da linguaggi OOP. 
+Più accessibile ai principianti, nascondendo i dettagli della reattività e imponendo un'organizzazione del codice tramite gruppi di opzioni.
+
+### Composition API
+
+Logica di un componente $->$ funzioni dell'API. 
+
+Negli SFC, di solito, la Composition API è utilizzata con [`<script setup>`](https://it.vuejs.org/api/sfc-script-setup.html). 
+
+L'attributo `setup` è un suggerimento che, durante la compilazione, permette a Vue di eseguire delle trasformazioni e usare la Composition API con meno codice ripetitivo (imports e le variabili / funzioni di livello superiore dichiarate in `<script setup>` possono essere usate direttamente nel template)
+
+
+``` vue
+<script setup>
+	import { ref, onMounted } from 'vue'
+	
+	// stato reattivo
+	const count = ref(0)
+	
+	// funzioni che modificano lo stato e innescano l'aggiornamento
+	function increment() {
+	  count.value++
+	}
+	
+	// hook del ciclo di vita
+	onMounted(() => {
+	  console.log(`The initial count is ${count.value}.`)
+	})
+</script>
+
+<template>
+  <button @click="increment">Il conteggio è: {{ count }}</button>
+</template>
+```
+
+Si concentra sulla dichiarazione di variabili di stato reattive direttamente nell'ambito di una funzione e, per gestire la complessità, sulla composizione dello stato da più funzioni insieme. È un modo di scrivere codice più libero e richiede una comprensione di come funziona la reattività in Vue per essere utilizzata in modo efficace. In cambio la sua flessibilità consente strutture per l'organizzazione e il riutilizzo della logica più potenti.
+
+---
 ## 🧠 Concetti chiave
 
 1. **Reattività:** ogni variabile in `data()` è “osservata” da Vue.  
