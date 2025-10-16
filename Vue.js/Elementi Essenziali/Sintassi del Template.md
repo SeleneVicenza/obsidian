@@ -18,7 +18,7 @@ La forma più basilare di data binding è l'interpolazione del testo utilizzando
 Il tag mustache verrà sostituito con il valore della proprietà msg [dall'istanza del componente corrispondente](https://it.vuejs.org/guide/essentials/reactivity-fundamentals.html#declaring-reactive-state). Sarà anche aggiornato ogni volta che la proprietà msg cambia.
 
 ---
-## HTML puro[​](https://it.vuejs.org/guide/essentials/template-syntax.html#raw-html)
+## HTML puro
 
 Le doppie parentesi graffe interpretano i dati come testo normale, non HTML. Per produrre vero HTML, avrai bisogno di utilizzare la [direttiva `v-html`](https://it.vuejs.org/api/built-in-directives.html#v-html):
 
@@ -42,13 +42,13 @@ Il contenuto dello `span` verrà sostituito con il valore della proprietà raw
 La renderizzazione dinamica di HTML arbitrario sul tuo sito web può essere molto pericolosa in quanto può facilmente portare a [vulnerabilità XSS](https://en.wikipedia.org/wiki/Cross-site_scripting). Utilizza `v-html` solo su contenuti di fiducia e **mai** su contenuti forniti dall'utente.
 
 ----
-## Associazioni di Attributi (binding)[​](https://it.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings)
+## Associazioni di Attributi (binding)
 
 Le parentesi graffe non possono essere utilizzate all'interno degli attributi HTML. Si può usare, invece, la [direttiva `v-bind`](https://it.vuejs.org/api/built-in-directives.html#v-bind):
 
-template
 
-```
+
+``` template
 <div v-bind:id="dynamicId"></div>
 ```
 
@@ -58,9 +58,9 @@ La direttiva `v-bind` indica a Vue di mantenere sincronizzato l'attributo `id
 
 dato che `v-bind` è utilizzato così di frequente, ha una sintassi abbreviata dedicata:
 
-template
 
-```
+
+``` template
 <div :id="dynamicId"></div>
 ```
 
@@ -68,7 +68,7 @@ Gli attributi che iniziano con `:` possono sembrare un po' diversi dall'HTML n
 
 > Per il resto della guida, negli esempi di codice utilizzeremo la sintassi abbreviata, dato che è l'uso più comune per gli sviluppatori Vue.
 
-### Attributi Booleani[​](https://it.vuejs.org/guide/essentials/template-syntax.html#boolean-attributes)
+### Attributi Booleani
 
 Gli [Attributi Booleani](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes) sono attributi che possono indicare valori veri / falsi con la loro presenza su un elemento. Ad esempio,[`disabled`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled) è uno degli attributi booleani più comunemente utilizzati.
 
@@ -86,9 +86,9 @@ L'attributo `disabled` sarà incluso se `isButtonDisabled` ha un [valore tr
 
 Se hai un oggetto JavaScript che rappresenta attributi multipli che assomiglia a questo:
 
-js
 
-```
+``` js
+
 const objectOfAttrs = {
   id: 'container',
   class: 'wrapper'

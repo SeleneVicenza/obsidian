@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2fe2ce9080725e0a",
+        "id": "b51ecd2bc678a9b3",
         "type": "tabs",
         "children": [
           {
-            "id": "569ab5ac21a3aec6",
+            "id": "4fa8980a481739ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js/Elementi Essenziali/Sintassi del Template.md",
+                "file": "LARAVEL/API LARAVEL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sintassi del Template"
+              "title": "API LARAVEL"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Segnalibri"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,13 +179,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "569ab5ac21a3aec6",
+  "active": "4fa8980a481739ac",
   "lastOpenFiles": [
+    "LARAVEL/API LARAVEL.md",
+    "Pasted image 20251016142255.png",
+    "Pasted image 20251016142033.png",
+    "Senza nome.base",
+    "Vue.js/Elementi Essenziali/Sintassi del Template.md",
     "Vue.js/INTRODUZIONE.md",
     "Spring/Dependency injection.md",
     "Vue.js/Concetti chiave.md",
     "Vue.js/Elementi Essenziali/Direttive.md",
-    "Vue.js/Elementi Essenziali/Sintassi del Template.md",
     "Vue.js/Elementi Essenziali/Creazione di un'Applicazione Vue.md",
     "Vue.js/Elementi Essenziali",
     "REACT/Introduzione.md",
@@ -215,9 +218,6 @@
     "Spring/convention over configuration.md",
     "NodeJs/HTTP.md",
     "obsidian_kafka/LARAVEL/ELOQUENT/AMBIENTE di SVILUPPO UNIFORME.md",
-    "NodeJs/Express-session.md",
-    "NodeJs/Introduzione.md",
-    "Senza nome.base",
     "LARAVEL/ELOQUENT/VANTAGGI ELOQUENT.canvas",
     "obsidian_kafka/LARAVEL/ELOQUENT",
     "obsidian_kafka/LARAVEL",
