@@ -18,8 +18,9 @@ RESOURCE (formattazione output)
 RISPOSTA JSON (status code + headers)
 ```
 
-- `**Il client** (browser, Postman, app mobile) invia una richiesta HTTP JSON:`
-    ```{ "title": "Compilare report", "completed": false }`
+- **Il client** (browser, Postman, app mobile) invia una richiesta HTTP JSON:
+    ```{ "title": "Compilare report", "completed": false }```{
+
 
 - **Route** intercetta l’endpoint:
     `Route::post('/tasks', [TaskController::class, 'store']);`
